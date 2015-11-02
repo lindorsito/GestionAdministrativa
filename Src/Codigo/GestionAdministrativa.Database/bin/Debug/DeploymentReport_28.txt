@@ -1,0 +1,49 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       None
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       None
+
+** User actions
+     Create
+       [dbo].[FK_Personal_Localidad] (Foreign Key)
+       [dbo].[FK_Personal_OperadorAlta] (Foreign Key)
+       [dbo].[FK_Personal_OperadorModificacion] (Foreign Key)
+       [dbo].[FK_Personal_Provincia] (Foreign Key)
+       [dbo].[FK_Personal_Sucursal] (Foreign Key)
+       [dbo].[FK_Personal_SucursalAlta] (Foreign Key)
+       [dbo].[FK_Personal_SucursalModificacion] (Foreign Key)
+       [dbo].[FK_Profesiones_OperadorAlta] (Foreign Key)
+       [dbo].[FK_Profesiones_OperadorModificacion] (Foreign Key)
+       [dbo].[FK_Profesiones_SucursalAlta] (Foreign Key)
+       [dbo].[FK_Profesiones_SucursalModificacion] (Foreign Key)
+       [dbo].[FK_Provincias_OperadorAlta] (Foreign Key)
+       [dbo].[FK_Provincias_OperadorModificacion] (Foreign Key)
+       [dbo].[FK_Provincias_SucursalAlta] (Foreign Key)
+       [dbo].[FK_Provincias_SucursalModificacion] (Foreign Key)
+       [dbo].[FK_Sucursales_OperadorAlta] (Foreign Key)
+       [dbo].[FK_Sucursales_OperadorModificacion] (Foreign Key)
+       [dbo].[FK_Sucursales_SucursalAlta] (Foreign Key)
+       [dbo].[FK_Sucursales_SucursalModificacion] (Foreign Key)
+       [dbo].[FK_TiposComprobantes_OperadorAlta] (Foreign Key)
+       [dbo].[FK_TiposComprobantes_OperadorModificacion] (Foreign Key)
+       [dbo].[FK_TiposComprobantes_SucursalesAlta] (Foreign Key)
+       [dbo].[FK_TiposComprobantes_SucursalesModificacion] (Foreign Key)
+       [dbo].[FK_TiposDocumentosIdentidad_OperadorAlta] (Foreign Key)
+       [dbo].[FK_TiposDocumentosIdentidad_OperadorModificacion] (Foreign Key)
+       [dbo].[FK_TiposDocumentosIdentidad_SucursalAlta] (Foreign Key)
+       [dbo].[FK_TiposDocumentosIdentidad_SucursalModificacion] (Foreign Key)
+       [dbo].[FK_Vendedores_Operador] (Foreign Key)
+       [dbo].[FK_Zonas_OperadorAlta] (Foreign Key)
+       [dbo].[FK_Zonas_OperadorModificacion] (Foreign Key)
+       [dbo].[FK_Zonas_SucursalAlta] (Foreign Key)
+       [dbo].[FK_Zonas_SucursalModificacion] (Foreign Key)
+
+** Supporting actions
+
+The project and target databases have different collation settings. Deployment errors might occur.
+

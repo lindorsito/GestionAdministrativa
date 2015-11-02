@@ -1,0 +1,35 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       None
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       None
+
+** User actions
+     Create
+       [dbo].[Clientes] (Table)
+       [dbo].[Vendedores] (Table)
+       [dbo].[DF_Clientes_Id] (Default Constraint)
+       [dbo].[FK_Clientes_CondicionIva] (Foreign Key)
+       [dbo].[FK_Clientes_CondicionVenta] (Foreign Key)
+       [dbo].[FK_Clientes_Especialidad] (Foreign Key)
+       [dbo].[FK_Clientes_EstadoClienteId] (Foreign Key)
+       [dbo].[FK_Clientes_Localidad] (Foreign Key)
+       [dbo].[FK_Clientes_OperadorAlta] (Foreign Key)
+       [dbo].[FK_Clientes_OperadorModificacion] (Foreign Key)
+       [dbo].[FK_Clientes_Profesion] (Foreign Key)
+       [dbo].[FK_Clientes_Provincia] (Foreign Key)
+       [dbo].[FK_Clientes_SucursalAlta] (Foreign Key)
+       [dbo].[FK_Clientes_Sucursales] (Foreign Key)
+       [dbo].[FK_Clientes_SucursalModificacion] (Foreign Key)
+       [dbo].[FK_Clientes_TipoDocumento] (Foreign Key)
+       [dbo].[FK_Clientes_Vendedores] (Foreign Key)
+       [dbo].[FK_Clientes_Zona] (Foreign Key)
+
+** Supporting actions
+
+The project and target databases have different collation settings. Deployment errors might occur.
+

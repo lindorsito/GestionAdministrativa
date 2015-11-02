@@ -1,0 +1,29 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       None
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       None
+
+** User actions
+     Create
+       [dbo].[EstadosVenta] (Table)
+       [dbo].[TiposComprobantes] (Table)
+       [dbo].[Ventas] (Table)
+       [dbo].[FK_Ventas_Cliente] (Foreign Key)
+       [dbo].[FK_Ventas_Comprobante] (Foreign Key)
+       [dbo].[FK_Ventas_CondicionVenta] (Foreign Key)
+       [dbo].[FK_Ventas_EstadoVenta] (Foreign Key)
+       [dbo].[FK_Ventas_OperadorAlta] (Foreign Key)
+       [dbo].[FK_Ventas_OperadorAutoriza] (Foreign Key)
+       [dbo].[FK_Ventas_OperadorModificacion] (Foreign Key)
+       [dbo].[FK_Ventas_SucursalAlta] (Foreign Key)
+       [dbo].[FK_Ventas_SucursalModificacion] (Foreign Key)
+
+** Supporting actions
+
+The project and target databases have different collation settings. Deployment errors might occur.
+

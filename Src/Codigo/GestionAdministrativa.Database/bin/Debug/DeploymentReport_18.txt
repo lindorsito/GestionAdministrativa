@@ -1,0 +1,23 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       None
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       None
+
+** User actions
+     Create
+       [dbo].[ClientesCuentasCorriente] (Table)
+       [dbo].[FK_ClientesCuentasCorriente_Clientes] (Foreign Key)
+       [dbo].[FK_ClientesCuentasCorriente_SucursalAltaId] (Foreign Key)
+       [dbo].[FK_ClientesCuentasCorriente_OperadorAltaId] (Foreign Key)
+       [dbo].[FK_ClientesCuentasCorriente_SucursalModificacionId] (Foreign Key)
+       [dbo].[FK_ClientesCuentasCorriente_OperadorModificacionId] (Foreign Key)
+
+** Supporting actions
+
+The project and target databases have different collation settings. Deployment errors might occur.
+

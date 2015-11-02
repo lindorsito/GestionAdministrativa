@@ -1,0 +1,9 @@
+E:\Santy Rock\Documents\Trabajos\Pragma\Alejandria\Src\Alejandria\Framework\Framework.Data\bin\Debug\Framework.Data.dll
+E:\Santy Rock\Documents\Trabajos\Pragma\Alejandria\Src\Alejandria\Framework\Framework.Data\bin\Debug\Framework.Data.pdb
+E:\Santy Rock\Documents\Trabajos\Pragma\Alejandria\Src\Alejandria\Framework\Framework.Data\obj\Debug\Framework.Data.csprojResolveAssemblyReference.cache
+E:\Santy Rock\Documents\Trabajos\Pragma\Alejandria\Src\Alejandria\Framework\Framework.Data\obj\Debug\Framework.Data.dll
+E:\Santy Rock\Documents\Trabajos\Pragma\Alejandria\Src\Alejandria\Framework\Framework.Data\obj\Debug\Framework.Data.pdb
+E:\Santy Rock\Documents\Trabajos\Otros\Apipe\GestionAdministrativa\Src\Codigo\Framework\Framework.Data\bin\Debug\Framework.Data.dll
+E:\Santy Rock\Documents\Trabajos\Otros\Apipe\GestionAdministrativa\Src\Codigo\Framework\Framework.Data\bin\Debug\Framework.Data.pdb
+E:\Santy Rock\Documents\Trabajos\Otros\Apipe\GestionAdministrativa\Src\Codigo\Framework\Framework.Data\obj\Debug\Framework.Data.dll
+E:\Santy Rock\Documents\Trabajos\Otros\Apipe\GestionAdministrativa\Src\Codigo\Framework\Framework.Data\obj\Debug\Framework.Data.pdb

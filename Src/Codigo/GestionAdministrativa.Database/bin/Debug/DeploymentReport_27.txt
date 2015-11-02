@@ -1,0 +1,38 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       None
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       None
+
+** User actions
+     Create
+       [dbo].[FK_CategoriasOperadores_OperadorAlta] (Foreign Key)
+       [dbo].[FK_CategoriasOperadores_OperadorModificacion] (Foreign Key)
+       [dbo].[FK_CategoriasOperadores_SucursalAlta] (Foreign Key)
+       [dbo].[FK_CategoriasOperadores_SucursalModificacion] (Foreign Key)
+       [dbo].[FK_CondicionesIVA_OperadorAlta] (Foreign Key)
+       [dbo].[FK_CondicionesIVA_OperadorModificacion] (Foreign Key)
+       [dbo].[FK_CondicionesIVA_SucursalAlta] (Foreign Key)
+       [dbo].[FK_CondicionesIVA_SucursalModificacion] (Foreign Key)
+       [dbo].[FK_Especialidades_OperadorAlta] (Foreign Key)
+       [dbo].[FK_Especialidades_OperadorModificacion] (Foreign Key)
+       [dbo].[FK_Especialidades_SucursalAlta] (Foreign Key)
+       [dbo].[FK_Especialidades_SucursalModificacion] (Foreign Key)
+       [dbo].[FK_Localidades_OperadorAlta] (Foreign Key)
+       [dbo].[FK_Localidades_OperadorModificacion] (Foreign Key)
+       [dbo].[FK_Localidades_Provincia] (Foreign Key)
+       [dbo].[FK_Localidades_SucursalAlta] (Foreign Key)
+       [dbo].[FK_Localidades_SucursalModificacion] (Foreign Key)
+       [dbo].[FK_Operadores_OperadorAlta] (Foreign Key)
+       [dbo].[FK_Operadores_OperadorModificacion] (Foreign Key)
+       [dbo].[FK_Operadores_SucursalAlta] (Foreign Key)
+       [dbo].[FK_Operadores_SucursalModificacion] (Foreign Key)
+
+** Supporting actions
+
+The project and target databases have different collation settings. Deployment errors might occur.
+

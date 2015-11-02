@@ -1,0 +1,10 @@
+E:\Santy Rock\Documents\Trabajos\Pragma\Alejandria\Src\Alejandria\Alejandria.Database\bin\Debug\Alejandria.Database.dacpac
+E:\Santy Rock\Documents\Trabajos\Pragma\Alejandria\Src\Alejandria\Alejandria.Database\bin\Debug\Alejandria.Database.dll
+E:\Santy Rock\Documents\Trabajos\Pragma\Alejandria\Src\Alejandria\Alejandria.Database\bin\Debug\Alejandria.Database.pdb
+E:\Santy Rock\Documents\Trabajos\Pragma\Alejandria\Src\Alejandria\Alejandria.Database\obj\Debug\Alejandria.Database.dll
+E:\Santy Rock\Documents\Trabajos\Pragma\Alejandria\Src\Alejandria\Alejandria.Database\obj\Debug\Alejandria.Database.pdb
+E:\Santy Rock\Documents\Trabajos\Otros\Apipe\GestionAdministrativa\Src\Codigo\Alejandria.Database\bin\Debug\Alejandria.Database.dacpac
+E:\Santy Rock\Documents\Trabajos\Otros\Apipe\GestionAdministrativa\Src\Codigo\Alejandria.Database\bin\Debug\Alejandria.Database.dll
+E:\Santy Rock\Documents\Trabajos\Otros\Apipe\GestionAdministrativa\Src\Codigo\Alejandria.Database\bin\Debug\Alejandria.Database.pdb
+E:\Santy Rock\Documents\Trabajos\Otros\Apipe\GestionAdministrativa\Src\Codigo\Alejandria.Database\obj\Debug\Alejandria.Database.dll
+E:\Santy Rock\Documents\Trabajos\Otros\Apipe\GestionAdministrativa\Src\Codigo\Alejandria.Database\obj\Debug\Alejandria.Database.pdb

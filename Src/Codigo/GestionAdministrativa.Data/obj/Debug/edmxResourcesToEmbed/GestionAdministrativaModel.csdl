@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="AlejandriaModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="AlejandriaDbContext" annotation:LazyLoadingEnabled="true">
+    <FunctionImport Name="ComprobantesByVentaId" ReturnType="Collection(AlejandriaModel.ComprobantesByVentaId_Result)">
+      <Parameter Name="ventaId" Mode="In" Type="Guid" />
+    </FunctionImport>
+  </EntityContainer>
+  <EnumType Name="CondicionVentaEnum" a:ExternalTypeName="Alejandria.Entities.Enums.CondicionVentaEnum" xmlns:a="http://schemas.microsoft.com/ado/2006/04/codegeneration" />
+  <EnumType Name="EstadoCliente" a:ExternalTypeName="Alejandria.Entities.Enums.EstadoCliente" xmlns:a="http://schemas.microsoft.com/ado/2006/04/codegeneration" />
+  <ComplexType Name="ComprobantesByVentaId_Result">
+    <Property Type="Int32" Name="Cuenta" Nullable="true" />
+    <Property Type="String" Name="Denominacion" Nullable="true" MaxLength="80" />
+    <Property Type="String" Name="Domicilio" Nullable="true" MaxLength="100" />
+    <Property Type="String" Name="Telefono" Nullable="true" MaxLength="40" />
+    <Property Type="String" Name="Concepto" Nullable="true" MaxLength="50" />
+    <Property Type="Decimal" Name="Anticipo" Nullable="true" Precision="19" />
+    <Property Type="Int32" Name="Cuotas" Nullable="true" />
+    <Property Type="Single" Name="ValorCuota" Nullable="true" />
+    <Property Type="Byte" Name="Cuota" Nullable="false" />
+    <Property Type="String" Name="Vendedor" Nullable="true" MaxLength="50" />
+  </ComplexType>
+</Schema>

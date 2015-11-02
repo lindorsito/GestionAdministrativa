@@ -1,0 +1,26 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       None
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       None
+
+** User actions
+     Create
+       [dbo].[CajasMovimientos] (Table)
+       [dbo].[TiposMovimientosCajas] (Table)
+       [dbo].[FK_CajasMovimientos_OperadorAlta] (Foreign Key)
+       [dbo].[FK_CajasMovimientos_OperadorModificacion] (Foreign Key)
+       [dbo].[FK_CajasMovimientos_SucursalAlta] (Foreign Key)
+       [dbo].[FK_CajasMovimientos_SucursalModificacion] (Foreign Key)
+       [dbo].[FK_CajasMovimientos_TipoComprobante] (Foreign Key)
+       [dbo].[FK_CajasMovimientos_TipoMovimientoCaja] (Foreign Key)
+       [dbo].[TiposMovimientosCajas].[CodTipoAnt].[MS_Description] (Extended Property)
+
+** Supporting actions
+
+The project and target databases have different collation settings. Deployment errors might occur.
+
