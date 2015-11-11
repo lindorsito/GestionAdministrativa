@@ -119,4 +119,67 @@
     <Property Name="ParentElementType" Value="SqlTable" />
     <Property Name="NewName" Value="FechaModificacion" />
   </Operation>
+  <Operation Name="Rename Refactor" Key="182f415c-ec7f-4fe2-ab59-2b3c342cc171" ChangeDateTime="11/11/2015 14:41:07">
+    <Property Name="ElementName" Value="[dbo].[RecibosDetalle].[PagoPorCelularId]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[RecibosDetalle]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="PagoId" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="55fa7972-6ad8-4052-93df-1b000cc12085" ChangeDateTime="11/11/2015 15:04:48">
+    <Property Name="ElementName" Value="[dbo].[PagosCelular].[Talle]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[PagosCelular]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Taller" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="7d6401af-24c1-4809-9d9a-b34446990d02" ChangeDateTime="11/11/2015 15:08:33">
+    <Property Name="ElementName" Value="[dbo].[PagosCelular].[SucursalModificacion]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[PagosCelular]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="SucursalModificacionId" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="a379f04b-b5cd-4fc5-9c15-645010ca0a72" ChangeDateTime="11/11/2015 15:17:23">
+    <Property Name="ElementName" Value="[dbo].[CelularesMovimiento].[IdCliente]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[CelularesMovimiento]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="IdCelular" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="0ed19a39-3fbf-4d34-87a3-cb284c07c8e1" ChangeDateTime="11/11/2015 16:24:49">
+    <Property Name="ElementName" Value="[dbo].[CelularesMovimiento].[IdCelular]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[CelularesMovimiento]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="CelularId" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="322750c3-8c3f-486b-a70b-36599270127e" ChangeDateTime="11/11/2015 16:24:53">
+    <Property Name="ElementName" Value="[dbo].[CelularesMovimiento].[IdTipoComprobante]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[CelularesMovimiento]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="TipoComprobanteId" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="2de752fb-784e-421b-92f5-0108d5306344" ChangeDateTime="11/11/2015 16:25:00">
+    <Property Name="ElementName" Value="[dbo].[CelularesMovimiento].[IdComprobante]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[CelularesMovimiento]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="ComprobanteId" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="37e0523f-186a-4fae-bc1f-21944d3eb9cc" ChangeDateTime="11/11/2015 16:39:37">
+    <Property Name="ElementName" Value="[dbo].[ChoferesMontosFavor].[ClienteId]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[ChoferesMontosFavor]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="ChoferId" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="ad02345e-39ab-408c-ac28-103b0c9cd359" ChangeDateTime="11/11/2015 16:41:02">
+    <Property Name="ElementName" Value="[dbo].[ChoferesMontosFavor].[OperadorAutoriza]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[ChoferesMontosFavor]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="OperadorAutorizaId" />
+  </Operation>
 </Operations>

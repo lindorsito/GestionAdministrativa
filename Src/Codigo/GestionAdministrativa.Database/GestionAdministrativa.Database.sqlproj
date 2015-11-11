@@ -88,5 +88,25 @@
     <Build Include="Tables\OperadorFunciones.sql" />
     <Build Include="Tables\Funciones.sql" />
     <Build Include="Tables\Roles.sql" />
+    <Build Include="Tables\Cajas.sql" />
+    <Build Include="Tables\CajasMovimientos.sql" />
+    <Build Include="Tables\TiposMovimientosCajas.sql" />
+    <Build Include="Tables\TiposComprobantes.sql" />
+    <Build Include="Tables\OrdenesPago.sql" />
+    <Build Include="Tables\OrdenesPagoDetalle.sql" />
+    <Build Include="Tables\Proveedores.sql" />
+    <Build Include="Tables\CondicionesCompra.sql" />
+    <Build Include="Tables\CentrosCostos.sql" />
+    <Build Include="Tables\TiposDocumentosIdentidad.sql" />
+    <Build Include="Tables\ProveedoresBanco.sql" />
+    <Build Include="Tables\Bancos.sql" />
+    <Build Include="Tables\GruposProveedores.sql" />
+    <Build Include="Tables\TiposGastos.sql" />
+    <Build Include="Tables\Recibos.sql" />
+    <Build Include="Tables\RecibosDetalles.sql" />
+    <Build Include="Tables\TiposRecibos.sql" />
+    <Build Include="Tables\PagosCelular.sql" />
+    <Build Include="Tables\CelularesMovimientos.sql" />
+    <Build Include="Tables\ChoferesMontosFavor.sql" />
   </ItemGroup>
 </Project>
