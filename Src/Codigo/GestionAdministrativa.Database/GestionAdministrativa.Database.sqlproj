@@ -68,6 +68,25 @@
     <RefactorLog Include="GestionAdministrativa.Database.refactorlog" />
   </ItemGroup>
   <ItemGroup>
-    <Build Include="Tables\Table1.sql" />
+    <Build Include="Tables\Moviles.sql" />
+    <Build Include="Tables\Choferes.sql" />
+    <Build Include="Tables\TiposCelulares.sql" />
+    <Build Include="Tables\Celulares.sql" />
+    <Build Include="Tables\Dias.sql" />
+    <Build Include="Tables\Sucursales.sql" />
+    <Build Include="Tables\Paises.sql" />
+    <Build Include="Tables\Localidades.sql" />
+    <Build Include="Tables\Operadores.sql" />
+    <Build Include="Tables\Provincias.sql" />
+    <Build Include="Tables\Personal.sql" />
+    <Build Include="Tables\PersonalConcepto.sql" />
+    <Build Include="Tables\PersonalNovedades.sql" />
+    <Build Include="Tables\Conceptos.sql" />
+    <Build Include="Tables\OperadoresSucursal.sql" />
+    <Build Include="Tables\CategoriasOperadores.sql" />
+    <Build Include="Tables\OperadorRoles.sql" />
+    <Build Include="Tables\OperadorFunciones.sql" />
+    <Build Include="Tables\Funciones.sql" />
+    <Build Include="Tables\Roles.sql" />
   </ItemGroup>
 </Project>

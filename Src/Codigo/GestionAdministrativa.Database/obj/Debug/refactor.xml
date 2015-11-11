@@ -14,4 +14,109 @@
     <Property Name="ParentElementType" Value="SqlTable" />
     <Property Name="NewName" Value="TipoDocumentoId" />
   </Operation>
+  <Operation Name="Rename Refactor" Key="e71cb390-9acd-4041-9046-dbe946bfe655" ChangeDateTime="11/10/2015 15:35:59" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+    <Property Name="ElementName" Value="[dbo].[TipoCelular].[Descripcion]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[TipoCelular]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Tipo" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="91620e7a-0395-474c-842e-7444dd4a5cac" ChangeDateTime="11/10/2015 15:37:42" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+    <Property Name="ElementName" Value="[dbo].[Celulares].[Desde]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Celulares]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="FechaAlta" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="bf493657-39f8-4cd2-a754-1dff1e3a73ab" ChangeDateTime="11/10/2015 15:38:09" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+    <Property Name="ElementName" Value="[dbo].[Celulares].[Estado]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Celulares]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Activo" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="78863578-2617-4161-a41c-c168908cda03" ChangeDateTime="11/10/2015 15:40:30" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+    <Property Name="ElementName" Value="[dbo].[Celulares].[DiaPago]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Celulares]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="DiaPagoId" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="59eb1669-69ad-415e-ac73-e083398a15d1" ChangeDateTime="11/10/2015 15:40:33" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+    <Property Name="ElementName" Value="[dbo].[Celulares].[TipoCelular]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Celulares]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="TipoCelularId" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="3f983663-2061-4b53-b753-6855c6d33420" ChangeDateTime="11/10/2015 15:40:39" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+    <Property Name="ElementName" Value="[dbo].[Celulares].[Fecha]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Celulares]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="FechaVencimientoPago" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="c14adf76-5281-4638-be10-ee6b10424823" ChangeDateTime="11/10/2015 16:00:36" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+    <Property Name="ElementName" Value="[dbo].[Celulares].[OperadorAlta]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Celulares]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="OperadorAltaId" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="ac18853e-bc55-455c-a1b0-0df30fbce0b0" ChangeDateTime="11/10/2015 16:00:39" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+    <Property Name="ElementName" Value="[dbo].[Celulares].[SucursalAlta]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Celulares]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="SucursalAltaId" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="77328312-57cd-43f9-96d5-488c029dcf84" ChangeDateTime="11/10/2015 16:03:56" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+    <Property Name="ElementName" Value="[dbo].[Choferes].[SucursalModificacion]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Choferes]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="SucursalModificacionID" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="24735177-edf4-4055-9f7b-328b374e6c87" ChangeDateTime="11/10/2015 16:04:14" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+    <Property Name="ElementName" Value="[dbo].[Choferes].[SucursalModificacionID]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Choferes]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="SucursalModificacionId" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="c2ea8ddd-0d83-41a2-87e5-4e5fe7387493" ChangeDateTime="11/10/2015 16:06:02" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+    <Property Name="ElementName" Value="[dbo].[Celulares].[FechaAlta]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Celulares]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Alta" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="240c23ec-daf2-4d39-9726-a97701ced323" ChangeDateTime="11/10/2015 16:06:06" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+    <Property Name="ElementName" Value="[dbo].[Celulares].[FechaBaja]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Celulares]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Baja" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="054f7c37-5272-47e5-a21c-3b467c803a29" ChangeDateTime="11/10/2015 16:13:49" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+    <Property Name="ElementName" Value="[dbo].[Moviles].[SucursalAltaID]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Moviles]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="SucursalAltaI" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="ebe2b7c9-31f6-4521-b397-b39cca3af57d" ChangeDateTime="11/10/2015 16:13:52" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+    <Property Name="ElementName" Value="[dbo].[Moviles].[SucursalAltaI]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Moviles]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="SucursalAltaId" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="784b2354-fdb0-42dd-b933-36bfad4b6e7e" ChangeDateTime="11/11/2015 13:31:38" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+    <Property Name="ElementName" Value="[dbo].[TiposCelulares].[OperadorModificacionId]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[TiposCelulares]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="FechaModificacion" />
+  </Operation>
 </Operations>

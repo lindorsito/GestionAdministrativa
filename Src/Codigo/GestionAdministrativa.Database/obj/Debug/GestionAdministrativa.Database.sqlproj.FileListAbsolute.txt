@@ -25,3 +25,12 @@ E:\Santy Rock\Documents\Trabajos\Otros\Apipe\Cobranza\ApipeCobranza\Src\Codigo\G
 E:\Santy Rock\Documents\Trabajos\Otros\Apipe\Cobranza\ApipeCobranza\Src\Codigo\GestionAdministrativa.Database\obj\Debug\predeploy.sql
 E:\Santy Rock\Documents\Trabajos\Otros\Apipe\Cobranza\ApipeCobranza\Src\Codigo\GestionAdministrativa.Database\obj\Debug\Alejandria.Database.dll
 E:\Santy Rock\Documents\Trabajos\Otros\Apipe\Cobranza\ApipeCobranza\Src\Codigo\GestionAdministrativa.Database\obj\Debug\Alejandria.Database.pdb
+E:\Santy Rock\Documents\Trabajos\Otros\Apipe\Cobranza\GestionAdministrativa\Src\Codigo\GestionAdministrativa.Database\bin\Debug\GestionAdministrativa.Database.dacpac
+E:\Santy Rock\Documents\Trabajos\Otros\Apipe\Cobranza\GestionAdministrativa\Src\Codigo\GestionAdministrativa.Database\bin\Debug\Alejandria.Database.dll
+E:\Santy Rock\Documents\Trabajos\Otros\Apipe\Cobranza\GestionAdministrativa\Src\Codigo\GestionAdministrativa.Database\bin\Debug\Alejandria.Database.pdb
+E:\Santy Rock\Documents\Trabajos\Otros\Apipe\Cobranza\GestionAdministrativa\Src\Codigo\GestionAdministrativa.Database\obj\Debug\Model.xml
+E:\Santy Rock\Documents\Trabajos\Otros\Apipe\Cobranza\GestionAdministrativa\Src\Codigo\GestionAdministrativa.Database\obj\Debug\refactor.xml
+E:\Santy Rock\Documents\Trabajos\Otros\Apipe\Cobranza\GestionAdministrativa\Src\Codigo\GestionAdministrativa.Database\obj\Debug\postdeploy.sql
+E:\Santy Rock\Documents\Trabajos\Otros\Apipe\Cobranza\GestionAdministrativa\Src\Codigo\GestionAdministrativa.Database\obj\Debug\predeploy.sql
+E:\Santy Rock\Documents\Trabajos\Otros\Apipe\Cobranza\GestionAdministrativa\Src\Codigo\GestionAdministrativa.Database\obj\Debug\Alejandria.Database.dll
+E:\Santy Rock\Documents\Trabajos\Otros\Apipe\Cobranza\GestionAdministrativa\Src\Codigo\GestionAdministrativa.Database\obj\Debug\Alejandria.Database.pdb

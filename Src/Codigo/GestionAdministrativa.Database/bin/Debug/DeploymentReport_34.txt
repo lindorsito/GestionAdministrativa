@@ -1,0 +1,23 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       None
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       None
+
+** User actions
+     Create
+       [dbo].[Celulares] (Table)
+       [dbo].[Choferes] (Table)
+       [dbo].[Dias] (Table)
+       [dbo].[TiposCelulares] (Table)
+       [dbo].[FK_Celulares_TipoCelular] (Foreign Key)
+       [dbo].[FK_Celulares_DiaPago] (Foreign Key)
+
+** Supporting actions
+
+The project and target databases have different collation settings. Deployment errors might occur.
+

@@ -1,0 +1,160 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       None
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       The column [dbo].[Choferes].[OperadorAltaId] on table [dbo].[Choferes] must be added, but the column has no default
+         value and does not allow NULL values. If the table contains data, the ALTER script will not work. To avoid this issue
+         you must either: add a default value to the column, mark it as allowing NULL values, or enable the generation of
+         smart-defaults as a deployment option.
+       The column [dbo].[Choferes].[SucursalAltaId] on table [dbo].[Choferes] must be added, but the column has no default
+         value and does not allow NULL values. If the table contains data, the ALTER script will not work. To avoid this issue
+         you must either: add a default value to the column, mark it as allowing NULL values, or enable the generation of
+         smart-defaults as a deployment option.
+       The column [dbo].[Moviles].[FechaAlta] on table [dbo].[Moviles] must be added, but the column has no default value and
+         does not allow NULL values. If the table contains data, the ALTER script will not work. To avoid this issue you must
+         either: add a default value to the column, mark it as allowing NULL values, or enable the generation of smart-defaults
+         as a deployment option.
+       The column [dbo].[Moviles].[OperadorAltaId] on table [dbo].[Moviles] must be added, but the column has no default value
+         and does not allow NULL values. If the table contains data, the ALTER script will not work. To avoid this issue you must
+         either: add a default value to the column, mark it as allowing NULL values, or enable the generation of smart-defaults
+         as a deployment option.
+       The column [dbo].[Moviles].[SucursalAltaId] on table [dbo].[Moviles] must be added, but the column has no default value
+         and does not allow NULL values. If the table contains data, the ALTER script will not work. To avoid this issue you must
+         either: add a default value to the column, mark it as allowing NULL values, or enable the generation of smart-defaults
+         as a deployment option.
+       The column [dbo].[TiposCelulares].[FechaAlta] on table [dbo].[TiposCelulares] must be added, but the column has no
+         default value and does not allow NULL values. If the table contains data, the ALTER script will not work. To avoid this
+         issue you must either: add a default value to the column, mark it as allowing NULL values, or enable the generation of
+         smart-defaults as a deployment option.
+       The column [dbo].[TiposCelulares].[OperadorAltaId] on table [dbo].[TiposCelulares] must be added, but the column has no
+         default value and does not allow NULL values. If the table contains data, the ALTER script will not work. To avoid this
+         issue you must either: add a default value to the column, mark it as allowing NULL values, or enable the generation of
+         smart-defaults as a deployment option.
+       The column [dbo].[TiposCelulares].[SucursalAltaId] on table [dbo].[TiposCelulares] must be added, but the column has no
+         default value and does not allow NULL values. If the table contains data, the ALTER script will not work. To avoid this
+         issue you must either: add a default value to the column, mark it as allowing NULL values, or enable the generation of
+         smart-defaults as a deployment option.
+
+** User actions
+     Rename
+       [dbo].[Celulares].[Alta] (Column)
+       [dbo].[Celulares].[Baja] (Column)
+     Alter
+       [dbo].[Celulares] (Table)
+       [dbo].[Choferes] (Table)
+       [dbo].[Moviles] (Table)
+       [dbo].[TiposCelulares] (Table)
+     Create
+       [dbo].[CategoriasOperadores] (Table)
+       [dbo].[Conceptos] (Table)
+       [dbo].[Funciones] (Table)
+       [dbo].[Localidades] (Table)
+       [dbo].[Operadores] (Table)
+       [dbo].[OperadoresFunciones] (Table)
+       [dbo].[OperadoresRoles] (Table)
+       [dbo].[OperadoresSucursales] (Table)
+       [dbo].[Paises] (Table)
+       [dbo].[Personal] (Table)
+       [dbo].[PersonalConcepto] (Table)
+       [dbo].[PersonalNovedades] (Table)
+       [dbo].[Provincias] (Table)
+       [dbo].[Roles] (Table)
+       [dbo].[Sucursales] (Table)
+       Default Constraint: <unnamed> (Default Constraint)
+       Default Constraint: <unnamed> (Default Constraint)
+       Default Constraint: <unnamed> (Default Constraint)
+       Default Constraint: <unnamed> (Default Constraint)
+       [dbo].[FK_CategoriasOperadores_OperadorAlta] (Foreign Key)
+       [dbo].[FK_CategoriasOperadores_SucursalAlta] (Foreign Key)
+       [dbo].[FK_CategoriasOperadores_OperadorModificacion] (Foreign Key)
+       [dbo].[FK_CategoriasOperadores_SucursalModificacion] (Foreign Key)
+       [dbo].[FK_Conceptos_OperadorAlta] (Foreign Key)
+       [dbo].[FK_Conceptos_SucursalAlta] (Foreign Key)
+       [dbo].[FK_Conceptos_OperadorModificacion] (Foreign Key)
+       [dbo].[FK_Conceptos_SucursalModificacion] (Foreign Key)
+       [dbo].[FK_Funciones_OperadorAlta] (Foreign Key)
+       [dbo].[FK_Funciones_SucursalAlta] (Foreign Key)
+       [dbo].[FK_Funciones_OperadorModificacion] (Foreign Key)
+       [dbo].[FK_Funciones_SucursalModificacion] (Foreign Key)
+       [dbo].[FK_Localidades_OperadorAlta] (Foreign Key)
+       [dbo].[FK_Localidades_SucursalAlta] (Foreign Key)
+       [dbo].[FK_Localidades_OperadorModificacion] (Foreign Key)
+       [dbo].[FK_Localidades_SucursalModificacion] (Foreign Key)
+       [dbo].[FK_Operadores_OperadorAlta] (Foreign Key)
+       [dbo].[FK_Operadores_SucursalAlta] (Foreign Key)
+       [dbo].[FK_Operadores_OperadorModificacion] (Foreign Key)
+       [dbo].[FK_Operadores_SucursalModificacion] (Foreign Key)
+       [dbo].[FK_Operadores_Personal] (Foreign Key)
+       [dbo].[FK_OperadoresFunciones_OperadorAlta] (Foreign Key)
+       [dbo].[FK_OperadoresFunciones_SucursalAlta] (Foreign Key)
+       [dbo].[FK_OperadoresFunciones_OperadorModificacion] (Foreign Key)
+       [dbo].[FK_OperadoresFunciones_SucursalModificacion] (Foreign Key)
+       [dbo].[FK_OperadoresRoles_Operadores] (Foreign Key)
+       [dbo].[FK_OperadoresRoles_Roles] (Foreign Key)
+       [dbo].[FK_OperadoresSucursal_OperadorAlta] (Foreign Key)
+       [dbo].[FK_OperadoresSucursal_SucursalAlta] (Foreign Key)
+       [dbo].[FK_OperadoresSucursal_OperadorModificacion] (Foreign Key)
+       [dbo].[FK_OperadoresSucursal_SucursalModificacion] (Foreign Key)
+       [dbo].[FK_Personal_OperadorAlta] (Foreign Key)
+       [dbo].[FK_Personal_SucursalAlta] (Foreign Key)
+       [dbo].[FK_Personal_OperadorModificacion] (Foreign Key)
+       [dbo].[FK_Personal_SucursalModificacion] (Foreign Key)
+       [dbo].[FK_Personal_CategoriasOperadores] (Foreign Key)
+       [dbo].[FK_Personal_Localidad] (Foreign Key)
+       [dbo].[FK_Personal_Provincia] (Foreign Key)
+       [dbo].[FK_PersonalConcepto_OperadorAlta] (Foreign Key)
+       [dbo].[FK_PersonalConcepto_SucursalAlta] (Foreign Key)
+       [dbo].[FK_PersonalConcepto_OperadorModificacion] (Foreign Key)
+       [dbo].[FK_PersonalConcepto_SucursalModificacion] (Foreign Key)
+       [dbo].[FK_PersonalConcepto_Conceptos] (Foreign Key)
+       [dbo].[FK_PersonalConcepto_Personal] (Foreign Key)
+       [dbo].[FK_PersonalNovedades_OperadorAlta] (Foreign Key)
+       [dbo].[FK_PersonalNovedades_SucursalAlta] (Foreign Key)
+       [dbo].[FK_PersonalNovedades_OperadorModificacion] (Foreign Key)
+       [dbo].[FK_PersonalNovedades_SucursalModificacion] (Foreign Key)
+       [dbo].[FK_PersonalNovedades_Conceptos] (Foreign Key)
+       [dbo].[FK_PersonalNovedades_Personal] (Foreign Key)
+       [dbo].[FK_Provincias_OperadorAlta] (Foreign Key)
+       [dbo].[FK_Provincias_SucursalAlta] (Foreign Key)
+       [dbo].[FK_Provincias_OperadorModificacion] (Foreign Key)
+       [dbo].[FK_Provincias_SucursalModificacion] (Foreign Key)
+       [dbo].[FK_Provincias_Paises] (Foreign Key)
+       [dbo].[FK_Sucursales_OperadorAlta] (Foreign Key)
+       [dbo].[FK_Sucursales_SucursalAlta] (Foreign Key)
+       [dbo].[FK_Sucursales_OperadorModificacion] (Foreign Key)
+       [dbo].[FK_Sucursales_SucursalModificacion] (Foreign Key)
+       [dbo].[FK_Sucursales_Localidades] (Foreign Key)
+       [dbo].[FK_Sucursales_Provincias] (Foreign Key)
+       [dbo].[FK_Celulares_OperadoresAlta] (Foreign Key)
+       [dbo].[FK_Celulares_OperadoresModificacion] (Foreign Key)
+       [dbo].[FK_Celulares_SucursalesAlta] (Foreign Key)
+       [dbo].[FK_Celulares_SucursalModificacion] (Foreign Key)
+       [dbo].[FK_Choferes_OperadorAlta] (Foreign Key)
+       [dbo].[FK_Choferes_OperadorModificacion] (Foreign Key)
+       [dbo].[FK_Choferes_SucursalAlta] (Foreign Key)
+       [dbo].[FK_Choferes_SucursalModificacion] (Foreign Key)
+       [dbo].[FK_Moviles_OperadorAlta] (Foreign Key)
+       [dbo].[FK_Moviles_OperadorModificacion] (Foreign Key)
+       [dbo].[FK_Moviles_SucursalAlta] (Foreign Key)
+       [dbo].[FK_Moviles_SucursalModificacion] (Foreign Key)
+       [dbo].[FK_TiposCelulares_OperadorAlta] (Foreign Key)
+       [dbo].[FK_TiposCelulares_OperadorModificacion] (Foreign Key)
+       [dbo].[FK_TiposCelulares_SucursalAlta] (Foreign Key)
+       [dbo].[FK_TiposCelulares_SucursalModificacion] (Foreign Key)
+
+** Supporting actions
+
+The column [dbo].[Choferes].[OperadorAltaId] on table [dbo].[Choferes] must be added, but the column has no default value and does not allow NULL values. If the table contains data, the ALTER script will not work. To avoid this issue you must either: add a default value to the column, mark it as allowing NULL values, or enable the generation of smart-defaults as a deployment option.
+The column [dbo].[Choferes].[SucursalAltaId] on table [dbo].[Choferes] must be added, but the column has no default value and does not allow NULL values. If the table contains data, the ALTER script will not work. To avoid this issue you must either: add a default value to the column, mark it as allowing NULL values, or enable the generation of smart-defaults as a deployment option.
+The column [dbo].[Moviles].[FechaAlta] on table [dbo].[Moviles] must be added, but the column has no default value and does not allow NULL values. If the table contains data, the ALTER script will not work. To avoid this issue you must either: add a default value to the column, mark it as allowing NULL values, or enable the generation of smart-defaults as a deployment option.
+The column [dbo].[Moviles].[OperadorAltaId] on table [dbo].[Moviles] must be added, but the column has no default value and does not allow NULL values. If the table contains data, the ALTER script will not work. To avoid this issue you must either: add a default value to the column, mark it as allowing NULL values, or enable the generation of smart-defaults as a deployment option.
+The column [dbo].[Moviles].[SucursalAltaId] on table [dbo].[Moviles] must be added, but the column has no default value and does not allow NULL values. If the table contains data, the ALTER script will not work. To avoid this issue you must either: add a default value to the column, mark it as allowing NULL values, or enable the generation of smart-defaults as a deployment option.
+The column [dbo].[TiposCelulares].[FechaAlta] on table [dbo].[TiposCelulares] must be added, but the column has no default value and does not allow NULL values. If the table contains data, the ALTER script will not work. To avoid this issue you must either: add a default value to the column, mark it as allowing NULL values, or enable the generation of smart-defaults as a deployment option.
+The column [dbo].[TiposCelulares].[OperadorAltaId] on table [dbo].[TiposCelulares] must be added, but the column has no default value and does not allow NULL values. If the table contains data, the ALTER script will not work. To avoid this issue you must either: add a default value to the column, mark it as allowing NULL values, or enable the generation of smart-defaults as a deployment option.
+The column [dbo].[TiposCelulares].[SucursalAltaId] on table [dbo].[TiposCelulares] must be added, but the column has no default value and does not allow NULL values. If the table contains data, the ALTER script will not work. To avoid this issue you must either: add a default value to the column, mark it as allowing NULL values, or enable the generation of smart-defaults as a deployment option.
+The project and target databases have different collation settings. Deployment errors might occur.
+
