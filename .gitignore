@@ -41,19 +41,3 @@ $RECYCLE.BIN/
 Network Trash Folder
 Temporary Items
 .apdisk
-/Src/Codigo/Framework/Framework.Common/bin
-/Src/Codigo/Framework/Framework.Common/obj
-/Src/Codigo/Framework/Framework.Common.Win/*
-/Src/Codigo/Framework/Framework.Data/bin
-/Src/Codigo/Framework/Framework.Data/obj
-/Src/Codigo/Framework/Framework.Data.EntityFramework/bin
-/Src/Codigo/Framework/Framework.Data.EntityFramework/obj
-/Src/Codigo/Framework/Framework.Ioc/bin
-/Src/Codigo/Framework/Framework.Ioc/obj
-/Src/Codigo/Framework/Framework.Ioc.Ninject/bin
-/Src/Codigo/Framework/Framework.Ioc.Ninject/obj
-/Src/Codigo/Framework/Framework.Logging/bin
-obj
-/Src/Codigo/Framework/Framework.Logging.Log4Net/bin
-/Src/Codigo/Framework/Framework.WinForm.Comun/bin
-/Src/Codigo/Framework/Framework.WinForm.Controls/bin
