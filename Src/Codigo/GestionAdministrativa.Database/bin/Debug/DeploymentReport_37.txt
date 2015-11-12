@@ -1,0 +1,52 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       None
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       None
+
+** User actions
+     Create
+       [dbo].[CelularesMovimiento] (Table)
+       [dbo].[ChoferesMontosFavor] (Table)
+       [dbo].[PagosCelular] (Table)
+       [dbo].[Recibos] (Table)
+       [dbo].[RecibosDetalle] (Table)
+       [dbo].[TiposRecibos] (Table)
+       [dbo].[FK_CelularesMovimiento_Celular] (Foreign Key)
+       [dbo].[FK_CelularesMovimiento_TipoComprobante] (Foreign Key)
+       [dbo].[FK_CelularesMovimiento_OperadorAlta] (Foreign Key)
+       [dbo].[FK_CelularesMovimiento_SucursalAlta] (Foreign Key)
+       [dbo].[FK_CelularesMovimiento_OperadorModificacion] (Foreign Key)
+       [dbo].[FK_CelularesMovimiento_SucursalModificacion] (Foreign Key)
+       [dbo].[FK_ChoferesMontosFavor_Choferes] (Foreign Key)
+       [dbo].[FK_ChoferesMontosFavor_OperadorAutoriza] (Foreign Key)
+       [dbo].[FK_ChoferesMontosFavor_OperadorAlta] (Foreign Key)
+       [dbo].[FK_ChoferesMontosFavor_OperadorModificacion] (Foreign Key)
+       [dbo].[FK_ChoferesMontosFavor_SucursalAlta] (Foreign Key)
+       [dbo].[FK_ChoferesMontosFavor_SucursalModificacion] (Foreign Key)
+       [dbo].[FK_ChoferesMontosFavor_TipoComprobante] (Foreign Key)
+       [dbo].[FK_PagosCelular_Celular] (Foreign Key)
+       [dbo].[FK_PagosCelular_OperadorAlta] (Foreign Key)
+       [dbo].[FK_PagosCelular_SucursalAlta] (Foreign Key)
+       [dbo].[FK_PagosCelular_OperadorModificacion] (Foreign Key)
+       [dbo].[FK_PagosCelular_SucursalModificacion] (Foreign Key)
+       [dbo].[FK_Recibos_OperadorAutoriza] (Foreign Key)
+       [dbo].[FK_Recibos_OperadorAlta] (Foreign Key)
+       [dbo].[FK_Recibos_SucursalAlta] (Foreign Key)
+       [dbo].[FK_Recibos_OperadorModificacion] (Foreign Key)
+       [dbo].[FK_Recibos_SucursalModificacion] (Foreign Key)
+       [dbo].[FK_RecibosDetalle_Recibo] (Foreign Key)
+       [dbo].[FK_RecibosDetalle_OperadorALta] (Foreign Key)
+       [dbo].[FK_RecibosDetalle_SucursalAlta] (Foreign Key)
+       [dbo].[FK_RecibosDetalle_OperadorModificacion] (Foreign Key)
+       [dbo].[FK_RecibosDetalle_SucursalModificacion] (Foreign Key)
+       [dbo].[FK_RecibosDetalle_TipoRecibo] (Foreign Key)
+
+** Supporting actions
+
+The project and target databases have different collation settings. Deployment errors might occur.
+
