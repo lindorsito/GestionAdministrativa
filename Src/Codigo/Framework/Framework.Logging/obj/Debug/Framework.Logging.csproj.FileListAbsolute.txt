@@ -1,9 +1,0 @@
-E:\Santy Rock\Documents\Trabajos\Pragma\Alejandria\Src\Alejandria\Framework\Framework.Logging\bin\Debug\Framework.Logging.dll
-E:\Santy Rock\Documents\Trabajos\Pragma\Alejandria\Src\Alejandria\Framework\Framework.Logging\bin\Debug\Framework.Logging.pdb
-E:\Santy Rock\Documents\Trabajos\Pragma\Alejandria\Src\Alejandria\Framework\Framework.Logging\obj\Debug\Framework.Logging.csprojResolveAssemblyReference.cache
-E:\Santy Rock\Documents\Trabajos\Pragma\Alejandria\Src\Alejandria\Framework\Framework.Logging\obj\Debug\Framework.Logging.dll
-E:\Santy Rock\Documents\Trabajos\Pragma\Alejandria\Src\Alejandria\Framework\Framework.Logging\obj\Debug\Framework.Logging.pdb
-E:\Santy Rock\Documents\Trabajos\Otros\Apipe\GestionAdministrativa\Src\Codigo\Framework\Framework.Logging\bin\Debug\Framework.Logging.dll
-E:\Santy Rock\Documents\Trabajos\Otros\Apipe\GestionAdministrativa\Src\Codigo\Framework\Framework.Logging\bin\Debug\Framework.Logging.pdb
-E:\Santy Rock\Documents\Trabajos\Otros\Apipe\GestionAdministrativa\Src\Codigo\Framework\Framework.Logging\obj\Debug\Framework.Logging.dll
-E:\Santy Rock\Documents\Trabajos\Otros\Apipe\GestionAdministrativa\Src\Codigo\Framework\Framework.Logging\obj\Debug\Framework.Logging.pdb

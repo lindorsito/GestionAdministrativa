@@ -1,9 +1,0 @@
-E:\Santy Rock\Documents\Trabajos\Pragma\Alejandria\Src\Alejandria\Framework\Framework.Ioc\bin\Debug\Framework.Ioc.dll
-E:\Santy Rock\Documents\Trabajos\Pragma\Alejandria\Src\Alejandria\Framework\Framework.Ioc\bin\Debug\Framework.Ioc.pdb
-E:\Santy Rock\Documents\Trabajos\Pragma\Alejandria\Src\Alejandria\Framework\Framework.Ioc\obj\Debug\Framework.Ioc.csprojResolveAssemblyReference.cache
-E:\Santy Rock\Documents\Trabajos\Pragma\Alejandria\Src\Alejandria\Framework\Framework.Ioc\obj\Debug\Framework.Ioc.dll
-E:\Santy Rock\Documents\Trabajos\Pragma\Alejandria\Src\Alejandria\Framework\Framework.Ioc\obj\Debug\Framework.Ioc.pdb
-E:\Santy Rock\Documents\Trabajos\Otros\Apipe\GestionAdministrativa\Src\Codigo\Framework\Framework.Ioc\bin\Debug\Framework.Ioc.dll
-E:\Santy Rock\Documents\Trabajos\Otros\Apipe\GestionAdministrativa\Src\Codigo\Framework\Framework.Ioc\bin\Debug\Framework.Ioc.pdb
-E:\Santy Rock\Documents\Trabajos\Otros\Apipe\GestionAdministrativa\Src\Codigo\Framework\Framework.Ioc\obj\Debug\Framework.Ioc.dll
-E:\Santy Rock\Documents\Trabajos\Otros\Apipe\GestionAdministrativa\Src\Codigo\Framework\Framework.Ioc\obj\Debug\Framework.Ioc.pdb
