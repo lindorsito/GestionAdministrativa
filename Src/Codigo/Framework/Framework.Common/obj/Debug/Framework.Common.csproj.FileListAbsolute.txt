@@ -15,3 +15,11 @@ E:\Santy Rock\Documents\Trabajos\Otros\Apipe\GestionAdministrativa\Src\Codigo\Fr
 E:\Santy Rock\Documents\Trabajos\Otros\Apipe\GestionAdministrativa\Src\Codigo\Framework\Framework.Common\bin\Debug\EntityFramework.xml
 E:\Santy Rock\Documents\Trabajos\Otros\Apipe\GestionAdministrativa\Src\Codigo\Framework\Framework.Common\obj\Debug\Framework.Common.dll
 E:\Santy Rock\Documents\Trabajos\Otros\Apipe\GestionAdministrativa\Src\Codigo\Framework\Framework.Common\obj\Debug\Framework.Common.pdb
+E:\Santy Rock\Documents\Trabajos\Otros\Apipe\Cobranza\GestionAdministrativa\Src\Codigo\Framework\Framework.Common\bin\Debug\Framework.Common.dll
+E:\Santy Rock\Documents\Trabajos\Otros\Apipe\Cobranza\GestionAdministrativa\Src\Codigo\Framework\Framework.Common\bin\Debug\Framework.Common.pdb
+E:\Santy Rock\Documents\Trabajos\Otros\Apipe\Cobranza\GestionAdministrativa\Src\Codigo\Framework\Framework.Common\bin\Debug\AutoMapper.dll
+E:\Santy Rock\Documents\Trabajos\Otros\Apipe\Cobranza\GestionAdministrativa\Src\Codigo\Framework\Framework.Common\bin\Debug\EntityFramework.dll
+E:\Santy Rock\Documents\Trabajos\Otros\Apipe\Cobranza\GestionAdministrativa\Src\Codigo\Framework\Framework.Common\bin\Debug\AutoMapper.xml
+E:\Santy Rock\Documents\Trabajos\Otros\Apipe\Cobranza\GestionAdministrativa\Src\Codigo\Framework\Framework.Common\bin\Debug\EntityFramework.xml
+E:\Santy Rock\Documents\Trabajos\Otros\Apipe\Cobranza\GestionAdministrativa\Src\Codigo\Framework\Framework.Common\obj\Debug\Framework.Common.dll
+E:\Santy Rock\Documents\Trabajos\Otros\Apipe\Cobranza\GestionAdministrativa\Src\Codigo\Framework\Framework.Common\obj\Debug\Framework.Common.pdb

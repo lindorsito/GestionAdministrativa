@@ -7,8 +7,8 @@
     <ProjectGuid>{B6A55D5D-FD74-417D-8F0E-F56DBCC0072F}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Alejandria.Data</RootNamespace>
-    <AssemblyName>Alejandria.Data</AssemblyName>
+    <RootNamespace>GestionAdministrativa.Data</RootNamespace>
+    <AssemblyName>GestionAdministrativa.Data</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <SolutionDir Condition="$(SolutionDir) == '' Or $(SolutionDir) == '*Undefined*'">..\</SolutionDir>
@@ -54,11 +54,6 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="GestionAdministrativaDbContext.cs" />
-    <Compile Include="GestionAdministrativaModel.Context.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>GestionAdministrativaModel.Context.tt</DependentUpon>
-    </Compile>
     <Compile Include="GestionAdministrativaModel.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -89,10 +84,6 @@
     </EntityDeploy>
   </ItemGroup>
   <ItemGroup>
-    <None Include="GestionAdministrativaModel.Context.tt">
-      <Generator>TextTemplatingFileGenerator</Generator>
-      <LastGenOutput>GestionAdministrativaModel.Context.cs</LastGenOutput>
-    </None>
     <None Include="GestionAdministrativaModel.edmx.diagram">
       <DependentUpon>GestionAdministrativaModel.edmx</DependentUpon>
     </None>

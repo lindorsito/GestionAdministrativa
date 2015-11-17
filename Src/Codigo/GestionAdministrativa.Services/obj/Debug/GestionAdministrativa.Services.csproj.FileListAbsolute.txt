@@ -36,3 +36,4 @@ E:\Santy Rock\Documents\Trabajos\Otros\Apipe\GestionAdministrativa\Src\Codigo\Ge
 E:\Santy Rock\Documents\Trabajos\Otros\Apipe\GestionAdministrativa\Src\Codigo\GestionAdministrativa.Services\obj\Debug\GestionAdministrativa.Services.csprojResolveAssemblyReference.cache
 E:\Santy Rock\Documents\Trabajos\Otros\Apipe\GestionAdministrativa\Src\Codigo\GestionAdministrativa.Services\obj\Debug\Alejandria.Services.dll
 E:\Santy Rock\Documents\Trabajos\Otros\Apipe\GestionAdministrativa\Src\Codigo\GestionAdministrativa.Services\obj\Debug\Alejandria.Services.pdb
+E:\Santy Rock\Documents\Trabajos\Otros\Apipe\Cobranza\GestionAdministrativa\Src\Codigo\GestionAdministrativa.Services\obj\Debug\GestionAdministrativa.Services.csprojResolveAssemblyReference.cache

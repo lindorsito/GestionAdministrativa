@@ -4,8 +4,230 @@
   <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
     <!-- Diagram content (shape and connector positions) -->
     <edmx:Diagrams>
-      <Diagram DiagramId="12da29d5e6f549ab9cfce91cf12b232e" Name="Diagram1" ZoomLevel="29">
-        </Diagram>
+      <Diagram DiagramId="12da29d5e6f549ab9cfce91cf12b232e" Name="Diagram1" ZoomLevel="39">
+        <EntityTypeShape EntityType="GestionAdministrativaModel.C__RefactorLog" Width="1.5" PointX="8.125" PointY="4.625" />
+        <EntityTypeShape EntityType="GestionAdministrativaModel.Banco" Width="1.5" PointX="5.25" PointY="64.875" />
+        <EntityTypeShape EntityType="GestionAdministrativaModel.Caja" Width="1.5" PointX="24.75" PointY="53.75" />
+        <EntityTypeShape EntityType="GestionAdministrativaModel.CajasMovimiento" Width="1.5" PointX="15.75" PointY="71" />
+        <EntityTypeShape EntityType="GestionAdministrativaModel.CategoriasOperadore" Width="1.5" PointX="24.75" PointY="60.625" />
+        <EntityTypeShape EntityType="GestionAdministrativaModel.Celulare" Width="1.5" PointX="21.75" PointY="64.625" />
+        <EntityTypeShape EntityType="GestionAdministrativaModel.CelularesMovimiento" Width="1.5" PointX="35.25" PointY="65.25" />
+        <EntityTypeShape EntityType="GestionAdministrativaModel.CentrosCosto" Width="1.5" PointX="18.75" PointY="72.625" />
+        <EntityTypeShape EntityType="GestionAdministrativaModel.Chofere" Width="1.5" PointX="24.75" PointY="65.5" />
+        <EntityTypeShape EntityType="GestionAdministrativaModel.ChoferesMontosFavor" Width="1.5" PointX="32.25" PointY="58.875" />
+        <EntityTypeShape EntityType="GestionAdministrativaModel.Concepto" Width="1.5" PointX="24.75" PointY="70.625" />
+        <EntityTypeShape EntityType="GestionAdministrativaModel.CondicionesCompra" Width="1.5" PointX="21.75" PointY="71.625" />
+        <EntityTypeShape EntityType="GestionAdministrativaModel.Dia" Width="1.5" PointX="19.5" PointY="55.875" />
+        <EntityTypeShape EntityType="GestionAdministrativaModel.Funcione" Width="1.5" PointX="21.75" PointY="59.625" />
+        <EntityTypeShape EntityType="GestionAdministrativaModel.GruposProveedore" Width="1.5" PointX="18.75" PointY="58.625" />
+        <EntityTypeShape EntityType="GestionAdministrativaModel.Localidade" Width="1.5" PointX="15.75" PointY="59.375" />
+        <EntityTypeShape EntityType="GestionAdministrativaModel.Movile" Width="1.5" PointX="38.25" PointY="55.875" />
+        <EntityTypeShape EntityType="GestionAdministrativaModel.Operadore" Width="1.5" PointX="13.5" PointY="58.375" />
+        <EntityTypeShape EntityType="GestionAdministrativaModel.OperadoresFuncione" Width="1.5" PointX="41.25" PointY="71.75" />
+        <EntityTypeShape EntityType="GestionAdministrativaModel.OperadoresSucursale" Width="1.5" PointX="38.25" PointY="65.75" />
+        <EntityTypeShape EntityType="GestionAdministrativaModel.OrdenesPago" Width="1.5" PointX="18.75" PointY="63.625" />
+        <EntityTypeShape EntityType="GestionAdministrativaModel.OrdenesPagoDetalle" Width="1.5" PointX="27" PointY="62.125" />
+        <EntityTypeShape EntityType="GestionAdministrativaModel.PagosCelular" Width="1.5" PointX="32.25" PointY="65.25" />
+        <EntityTypeShape EntityType="GestionAdministrativaModel.Pais" Width="1.5" PointX="0.75" PointY="66.5" />
+        <EntityTypeShape EntityType="GestionAdministrativaModel.Personal" Width="1.5" PointX="8.25" PointY="64" />
+        <EntityTypeShape EntityType="GestionAdministrativaModel.PersonalConcepto" Width="1.5" PointX="35.25" PointY="71.5" />
+        <EntityTypeShape EntityType="GestionAdministrativaModel.PersonalNovedade" Width="1.5" PointX="32.25" PointY="71" />
+        <EntityTypeShape EntityType="GestionAdministrativaModel.Proveedore" Width="1.5" PointX="10.5" PointY="63" />
+        <EntityTypeShape EntityType="GestionAdministrativaModel.ProveedoresBanco" Width="1.5" PointX="15.75" PointY="65.25" />
+        <EntityTypeShape EntityType="GestionAdministrativaModel.Provincia" Width="1.5" PointX="3" PointY="65.25" />
+        <EntityTypeShape EntityType="GestionAdministrativaModel.Recibo" Width="1.5" PointX="41.25" PointY="65.25" />
+        <EntityTypeShape EntityType="GestionAdministrativaModel.RecibosDetalle" Width="1.5" PointX="43.5" PointY="65.5" />
+        <EntityTypeShape EntityType="GestionAdministrativaModel.Role" Width="1.5" PointX="15.75" PointY="120.625" />
+        <EntityTypeShape EntityType="GestionAdministrativaModel.Sucursale" Width="1.5" PointX="30" PointY="57.75" />
+        <EntityTypeShape EntityType="GestionAdministrativaModel.TiposCelulare" Width="1.5" PointX="38.25" PointY="60.75" />
+        <EntityTypeShape EntityType="GestionAdministrativaModel.TiposComprobante" Width="1.5" PointX="35.25" PointY="59.125" />
+        <EntityTypeShape EntityType="GestionAdministrativaModel.TiposDocumentosIdentidad" Width="1.5" PointX="8.25" PointY="60.5" />
+        <EntityTypeShape EntityType="GestionAdministrativaModel.TiposGasto" Width="1.5" PointX="38.25" PointY="70.625" />
+        <EntityTypeShape EntityType="GestionAdministrativaModel.TiposMovimientosCaja" Width="1.5" PointX="41.25" PointY="59.625" />
+        <EntityTypeShape EntityType="GestionAdministrativaModel.TiposRecibo" Width="1.5" PointX="41.25" PointY="56.875" />
+        <AssociationConnector Association="GestionAdministrativaModel.FK_Bancos_Localidad" />
+        <AssociationConnector Association="GestionAdministrativaModel.FK_Bancos_OperadoresAlta" />
+        <AssociationConnector Association="GestionAdministrativaModel.FK_Bancos_OperadorModificacion" />
+        <AssociationConnector Association="GestionAdministrativaModel.FK_Bancos_Provincia" />
+        <AssociationConnector Association="GestionAdministrativaModel.FK_Bancos_SucursalAlta" />
+        <AssociationConnector Association="GestionAdministrativaModel.FK_Bancos_SucursalModificacion" />
+        <AssociationConnector Association="GestionAdministrativaModel.FK_Proveedores_ProveedorBanco" />
+        <AssociationConnector Association="GestionAdministrativaModel.FK_ProveedoresBanco_Bancos" />
+        <AssociationConnector Association="GestionAdministrativaModel.FK_Cajas_Operador" />
+        <AssociationConnector Association="GestionAdministrativaModel.FK_Cajas_OperadorAlta" />
+        <AssociationConnector Association="GestionAdministrativaModel.FK_Cajas_OperadorModificacion" />
+        <AssociationConnector Association="GestionAdministrativaModel.FK_Cajas_Sucursal" />
+        <AssociationConnector Association="GestionAdministrativaModel.FK_Cajas_SucursalAlta" />
+        <AssociationConnector Association="GestionAdministrativaModel.FK_Cajas_SucursalModificacion" />
+        <AssociationConnector Association="GestionAdministrativaModel.FK_OrdenesPagoDetalle_Cajas" />
+        <AssociationConnector Association="GestionAdministrativaModel.FK_CajasMovimientos_OperadorAlta" />
+        <AssociationConnector Association="GestionAdministrativaModel.FK_CajasMovimientos_OperadorModificacion" />
+        <AssociationConnector Association="GestionAdministrativaModel.FK_CajasMovimientos_SucursalAlta" />
+        <AssociationConnector Association="GestionAdministrativaModel.FK_CajasMovimientos_SucursalModificacion" />
+        <AssociationConnector Association="GestionAdministrativaModel.FK_CajasMovimientos_TipoComprobante" />
+        <AssociationConnector Association="GestionAdministrativaModel.FK_CajasMovimientos_TipoMovimientoCaja" />
+        <AssociationConnector Association="GestionAdministrativaModel.FK_CategoriasOperadores_OperadorAlta" />
+        <AssociationConnector Association="GestionAdministrativaModel.FK_CategoriasOperadores_OperadorModificacion" />
+        <AssociationConnector Association="GestionAdministrativaModel.FK_CategoriasOperadores_SucursalAlta" />
+        <AssociationConnector Association="GestionAdministrativaModel.FK_CategoriasOperadores_SucursalModificacion" />
+        <AssociationConnector Association="GestionAdministrativaModel.FK_Personal_CategoriasOperadores" />
+        <AssociationConnector Association="GestionAdministrativaModel.FK_Celulares_DiaPago" />
+        <AssociationConnector Association="GestionAdministrativaModel.FK_Celulares_OperadoresAlta" />
+        <AssociationConnector Association="GestionAdministrativaModel.FK_Celulares_OperadoresModificacion" />
+        <AssociationConnector Association="GestionAdministrativaModel.FK_Celulares_SucursalesAlta" />
+        <AssociationConnector Association="GestionAdministrativaModel.FK_Celulares_SucursalModificacion" />
+        <AssociationConnector Association="GestionAdministrativaModel.FK_Celulares_TipoCelular" />
+        <AssociationConnector Association="GestionAdministrativaModel.FK_CelularesMovimiento_Celular" />
+        <AssociationConnector Association="GestionAdministrativaModel.FK_PagosCelular_Celular" />
+        <AssociationConnector Association="GestionAdministrativaModel.FK_CelularesMovimiento_OperadorAlta" />
+        <AssociationConnector Association="GestionAdministrativaModel.FK_CelularesMovimiento_OperadorModificacion" />
+        <AssociationConnector Association="GestionAdministrativaModel.FK_CelularesMovimiento_SucursalAlta" />
+        <AssociationConnector Association="GestionAdministrativaModel.FK_CelularesMovimiento_SucursalModificacion" />
+        <AssociationConnector Association="GestionAdministrativaModel.FK_CelularesMovimiento_TipoComprobante" />
+        <AssociationConnector Association="GestionAdministrativaModel.FK_CentrosCostos_OperadorAlta" />
+        <AssociationConnector Association="GestionAdministrativaModel.FK_CentrosCostos_OperadorModificacion" />
+        <AssociationConnector Association="GestionAdministrativaModel.FK_CentrosCostos_SucursalAlta" />
+        <AssociationConnector Association="GestionAdministrativaModel.FK_CentrosCostos_SucursalModificacion" />
+        <AssociationConnector Association="GestionAdministrativaModel.FK_OrdenesPago_CentrosCostos" />
+        <AssociationConnector Association="GestionAdministrativaModel.FK_Choferes_OperadorAlta" />
+        <AssociationConnector Association="GestionAdministrativaModel.FK_Choferes_OperadorModificacion" />
+        <AssociationConnector Association="GestionAdministrativaModel.FK_Choferes_SucursalAlta" />
+        <AssociationConnector Association="GestionAdministrativaModel.FK_Choferes_SucursalModificacion" />
+        <AssociationConnector Association="GestionAdministrativaModel.FK_ChoferesMontosFavor_Choferes" />
+        <AssociationConnector Association="GestionAdministrativaModel.FK_ChoferesMontosFavor_OperadorAlta" />
+        <AssociationConnector Association="GestionAdministrativaModel.FK_ChoferesMontosFavor_OperadorAutoriza" />
+        <AssociationConnector Association="GestionAdministrativaModel.FK_ChoferesMontosFavor_OperadorModificacion" />
+        <AssociationConnector Association="GestionAdministrativaModel.FK_ChoferesMontosFavor_SucursalAlta" />
+        <AssociationConnector Association="GestionAdministrativaModel.FK_ChoferesMontosFavor_SucursalModificacion" />
+        <AssociationConnector Association="GestionAdministrativaModel.FK_ChoferesMontosFavor_TipoComprobante" />
+        <AssociationConnector Association="GestionAdministrativaModel.FK_Conceptos_OperadorAlta" />
+        <AssociationConnector Association="GestionAdministrativaModel.FK_Conceptos_OperadorModificacion" />
+        <AssociationConnector Association="GestionAdministrativaModel.FK_Conceptos_SucursalAlta" />
+        <AssociationConnector Association="GestionAdministrativaModel.FK_Conceptos_SucursalModificacion" />
+        <AssociationConnector Association="GestionAdministrativaModel.FK_PersonalConcepto_Conceptos" />
+        <AssociationConnector Association="GestionAdministrativaModel.FK_PersonalNovedades_Conceptos" />
+        <AssociationConnector Association="GestionAdministrativaModel.FK_CondicionesCompra_OperadorAlta" />
+        <AssociationConnector Association="GestionAdministrativaModel.FK_CondicionesCompra_OperadorModificacion" />
+        <AssociationConnector Association="GestionAdministrativaModel.FK_CondicionesCompra_SucursalAlta" />
+        <AssociationConnector Association="GestionAdministrativaModel.FK_CondicionesCompra_SucursalModificacion" />
+        <AssociationConnector Association="GestionAdministrativaModel.FK_Proveedores_CondicionCompra" />
+        <AssociationConnector Association="GestionAdministrativaModel.FK_Funciones_OperadorAlta" />
+        <AssociationConnector Association="GestionAdministrativaModel.FK_Funciones_OperadorModificacion" />
+        <AssociationConnector Association="GestionAdministrativaModel.FK_Funciones_SucursalAlta" />
+        <AssociationConnector Association="GestionAdministrativaModel.FK_Funciones_SucursalModificacion" />
+        <AssociationConnector Association="GestionAdministrativaModel.FK_GruposProveedores_OperadorAlta" />
+        <AssociationConnector Association="GestionAdministrativaModel.FK_GruposProveedores_OperadorModificacion" />
+        <AssociationConnector Association="GestionAdministrativaModel.FK_GruposProveedores_SucursalAlta" />
+        <AssociationConnector Association="GestionAdministrativaModel.FK_GruposProveedores_SucursalModificacion" />
+        <AssociationConnector Association="GestionAdministrativaModel.FK_Proveedores_GrupoProveedor" />
+        <AssociationConnector Association="GestionAdministrativaModel.FK_Localidades_OperadorAlta" />
+        <AssociationConnector Association="GestionAdministrativaModel.FK_Localidades_OperadorModificacion" />
+        <AssociationConnector Association="GestionAdministrativaModel.FK_Localidades_SucursalAlta" />
+        <AssociationConnector Association="GestionAdministrativaModel.FK_Localidades_SucursalModificacion" />
+        <AssociationConnector Association="GestionAdministrativaModel.FK_Personal_Localidad" />
+        <AssociationConnector Association="GestionAdministrativaModel.FK_Proveedores_Localidad" />
+        <AssociationConnector Association="GestionAdministrativaModel.FK_Sucursales_Localidades" />
+        <AssociationConnector Association="GestionAdministrativaModel.FK_Moviles_OperadorAlta" />
+        <AssociationConnector Association="GestionAdministrativaModel.FK_Moviles_OperadorModificacion" />
+        <AssociationConnector Association="GestionAdministrativaModel.FK_Moviles_SucursalAlta" />
+        <AssociationConnector Association="GestionAdministrativaModel.FK_Moviles_SucursalModificacion" />
+        <AssociationConnector Association="GestionAdministrativaModel.FK_Operadores_OperadorAlta" />
+        <AssociationConnector Association="GestionAdministrativaModel.FK_Operadores_OperadorModificacion" />
+        <AssociationConnector Association="GestionAdministrativaModel.FK_Operadores_Personal" />
+        <AssociationConnector Association="GestionAdministrativaModel.FK_Operadores_SucursalAlta" />
+        <AssociationConnector Association="GestionAdministrativaModel.FK_Operadores_SucursalModificacion" />
+        <AssociationConnector Association="GestionAdministrativaModel.FK_OperadoresFunciones_OperadorAlta" />
+        <AssociationConnector Association="GestionAdministrativaModel.FK_OperadoresFunciones_OperadorModificacion" />
+        <AssociationConnector Association="GestionAdministrativaModel.FK_OperadoresSucursal_OperadorAlta" />
+        <AssociationConnector Association="GestionAdministrativaModel.FK_OperadoresSucursal_OperadorModificacion" />
+        <AssociationConnector Association="GestionAdministrativaModel.FK_OrdenesPago_OperadorAlta" />
+        <AssociationConnector Association="GestionAdministrativaModel.FK_OrdenesPago_OperadorModificacion" />
+        <AssociationConnector Association="GestionAdministrativaModel.FK_OrdenesPagoDetalle_OperadorAlta" />
+        <AssociationConnector Association="GestionAdministrativaModel.FK_OrdenesPagoDetalle_OperadorAutoriza" />
+        <AssociationConnector Association="GestionAdministrativaModel.FK_OrdenesPagoDetalle_OperadorModificacion" />
+        <AssociationConnector Association="GestionAdministrativaModel.FK_PagosCelular_OperadorAlta" />
+        <AssociationConnector Association="GestionAdministrativaModel.FK_PagosCelular_OperadorModificacion" />
+        <AssociationConnector Association="GestionAdministrativaModel.FK_Personal_OperadorAlta" />
+        <AssociationConnector Association="GestionAdministrativaModel.FK_Personal_OperadorModificacion" />
+        <AssociationConnector Association="GestionAdministrativaModel.FK_PersonalConcepto_OperadorAlta" />
+        <AssociationConnector Association="GestionAdministrativaModel.FK_PersonalConcepto_OperadorModificacion" />
+        <AssociationConnector Association="GestionAdministrativaModel.FK_PersonalNovedades_OperadorAlta" />
+        <AssociationConnector Association="GestionAdministrativaModel.FK_PersonalNovedades_OperadorModificacion" />
+        <AssociationConnector Association="GestionAdministrativaModel.FK_Proveedores_OperadorAlta" />
+        <AssociationConnector Association="GestionAdministrativaModel.FK_Proveedores_OperadorModificacion" />
+        <AssociationConnector Association="GestionAdministrativaModel.FK_ProveedoresBanco_OperadorAlta" />
+        <AssociationConnector Association="GestionAdministrativaModel.FK_ProveedoresBanco_OperadorModificacion" />
+        <AssociationConnector Association="GestionAdministrativaModel.FK_Provincias_OperadorAlta" />
+        <AssociationConnector Association="GestionAdministrativaModel.FK_Provincias_OperadorModificacion" />
+        <AssociationConnector Association="GestionAdministrativaModel.FK_Recibos_OperadorAlta" />
+        <AssociationConnector Association="GestionAdministrativaModel.FK_Recibos_OperadorAutoriza" />
+        <AssociationConnector Association="GestionAdministrativaModel.FK_Recibos_OperadorModificacion" />
+        <AssociationConnector Association="GestionAdministrativaModel.FK_RecibosDetalle_OperadorALta" />
+        <AssociationConnector Association="GestionAdministrativaModel.FK_RecibosDetalle_OperadorModificacion" />
+        <AssociationConnector Association="GestionAdministrativaModel.FK_Sucursales_OperadorAlta" />
+        <AssociationConnector Association="GestionAdministrativaModel.FK_Sucursales_OperadorModificacion" />
+        <AssociationConnector Association="GestionAdministrativaModel.FK_TiposCelulares_OperadorAlta" />
+        <AssociationConnector Association="GestionAdministrativaModel.FK_TiposCelulares_OperadorModificacion" />
+        <AssociationConnector Association="GestionAdministrativaModel.FK_TiposComprobantes_OperadorAlta" />
+        <AssociationConnector Association="GestionAdministrativaModel.FK_TiposComprobantes_OperadorModificacion" />
+        <AssociationConnector Association="GestionAdministrativaModel.FK_TiposGastos_OperadoresAlta" />
+        <AssociationConnector Association="GestionAdministrativaModel.FK_TiposGastos_OperadoresModificacion" />
+        <AssociationConnector Association="GestionAdministrativaModel.FK_TiposMovimientosCajas_OperadorAlta" />
+        <AssociationConnector Association="GestionAdministrativaModel.FK_TiposMovimientosCajas_OperadorModificacion" />
+        <AssociationConnector Association="GestionAdministrativaModel.FK_OperadoresFunciones_SucursalAlta" />
+        <AssociationConnector Association="GestionAdministrativaModel.FK_OperadoresFunciones_SucursalModificacion" />
+        <AssociationConnector Association="GestionAdministrativaModel.FK_OperadoresSucursal_SucursalAlta" />
+        <AssociationConnector Association="GestionAdministrativaModel.FK_OperadoresSucursal_SucursalModificacion" />
+        <AssociationConnector Association="GestionAdministrativaModel.FK_OrdenesPago_Comprobante" />
+        <AssociationConnector Association="GestionAdministrativaModel.FK_OrdenesPago_Proveedores" />
+        <AssociationConnector Association="GestionAdministrativaModel.FK_OrdenesPago_SucursalAlta" />
+        <AssociationConnector Association="GestionAdministrativaModel.FK_OrdenesPago_Sucursales" />
+        <AssociationConnector Association="GestionAdministrativaModel.FK_OrdenesPago_SucursalGasto" />
+        <AssociationConnector Association="GestionAdministrativaModel.FK_OrdenesPago_SucursalModificacion" />
+        <AssociationConnector Association="GestionAdministrativaModel.FK_OrdenesPago_TipoGasto" />
+        <AssociationConnector Association="GestionAdministrativaModel.FK_OrdenesPagoDetalle_OrdenesPago" />
+        <AssociationConnector Association="GestionAdministrativaModel.FK_OrdenesPagoDetalle_SucursalAlta" />
+        <AssociationConnector Association="GestionAdministrativaModel.FK_OrdenesPagoDetalle_SucursalModificacion" />
+        <AssociationConnector Association="GestionAdministrativaModel.FK_PagosCelular_SucursalAlta" />
+        <AssociationConnector Association="GestionAdministrativaModel.FK_PagosCelular_SucursalModificacion" />
+        <AssociationConnector Association="GestionAdministrativaModel.FK_Provincias_Paises" />
+        <AssociationConnector Association="GestionAdministrativaModel.FK_Personal_Provincia" />
+        <AssociationConnector Association="GestionAdministrativaModel.FK_Personal_SucursalAlta" />
+        <AssociationConnector Association="GestionAdministrativaModel.FK_Personal_SucursalModificacion" />
+        <AssociationConnector Association="GestionAdministrativaModel.FK_PersonalConcepto_Personal" />
+        <AssociationConnector Association="GestionAdministrativaModel.FK_PersonalNovedades_Personal" />
+        <AssociationConnector Association="GestionAdministrativaModel.FK_PersonalConcepto_SucursalAlta" />
+        <AssociationConnector Association="GestionAdministrativaModel.FK_PersonalConcepto_SucursalModificacion" />
+        <AssociationConnector Association="GestionAdministrativaModel.FK_PersonalNovedades_SucursalAlta" />
+        <AssociationConnector Association="GestionAdministrativaModel.FK_PersonalNovedades_SucursalModificacion" />
+        <AssociationConnector Association="GestionAdministrativaModel.FK_Proveedores_Provincia" />
+        <AssociationConnector Association="GestionAdministrativaModel.FK_Proveedores_SucursalAlta" />
+        <AssociationConnector Association="GestionAdministrativaModel.FK_Proveedores_SucursalModificacion" />
+        <AssociationConnector Association="GestionAdministrativaModel.FK_Proveedores_TipoDocumentoIdentidad" />
+        <AssociationConnector Association="GestionAdministrativaModel.FK_ProveedoresBanco_Proveedores" />
+        <AssociationConnector Association="GestionAdministrativaModel.FK_ProveedoresBanco_SucursalAlta" />
+        <AssociationConnector Association="GestionAdministrativaModel.FK_ProveedoresBanco_SucursalModificacion" />
+        <AssociationConnector Association="GestionAdministrativaModel.FK_Provincias_SucursalAlta" />
+        <AssociationConnector Association="GestionAdministrativaModel.FK_Provincias_SucursalModificacion" />
+        <AssociationConnector Association="GestionAdministrativaModel.FK_Sucursales_Provincias" />
+        <AssociationConnector Association="GestionAdministrativaModel.FK_Recibos_SucursalAlta" />
+        <AssociationConnector Association="GestionAdministrativaModel.FK_Recibos_SucursalModificacion" />
+        <AssociationConnector Association="GestionAdministrativaModel.FK_RecibosDetalle_Recibo" />
+        <AssociationConnector Association="GestionAdministrativaModel.FK_RecibosDetalle_SucursalAlta" />
+        <AssociationConnector Association="GestionAdministrativaModel.FK_RecibosDetalle_SucursalModificacion" />
+        <AssociationConnector Association="GestionAdministrativaModel.FK_RecibosDetalle_TipoRecibo" />
+        <AssociationConnector Association="GestionAdministrativaModel.FK_Sucursales_SucursalAlta" />
+        <AssociationConnector Association="GestionAdministrativaModel.FK_Sucursales_SucursalModificacion" />
+        <AssociationConnector Association="GestionAdministrativaModel.FK_TiposCelulares_SucursalAlta" />
+        <AssociationConnector Association="GestionAdministrativaModel.FK_TiposCelulares_SucursalModificacion" />
+        <AssociationConnector Association="GestionAdministrativaModel.FK_TiposComprobantes_SucursalAlta" />
+        <AssociationConnector Association="GestionAdministrativaModel.FK_TiposComprobantes_SucursalModificacion" />
+        <AssociationConnector Association="GestionAdministrativaModel.FK_TiposGastos_SucursalesAlta" />
+        <AssociationConnector Association="GestionAdministrativaModel.FK_TiposGastos_SucursalesModificacion" />
+        <AssociationConnector Association="GestionAdministrativaModel.FK_TiposMovimientosCajas_SucursalAlta" />
+        <AssociationConnector Association="GestionAdministrativaModel.FK_TiposMovimientosCajas_SucursalModificacion" />
+        <AssociationConnector Association="GestionAdministrativaModel.OperadoresRoles" />
+      </Diagram>
     </edmx:Diagrams>
   </edmx:Designer>
 </edmx:Edmx>
