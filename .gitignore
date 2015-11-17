@@ -194,8 +194,9 @@ FakesAssemblies/
 
 # Visual Studio 6 workspace options file
 *.opt
-Src/Codigo/Alejandria.Data/bin/Debug/*.dll
+Src/Codigo/Alejandria.Data/bin/Debug/
 Src/Codigo/Alejandria.Data/bin/Debug/Framework.Common.dll
 *.pdb
 /Debug/*
 Bin
+dir_to_ignore/
