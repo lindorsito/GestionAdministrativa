@@ -4,7 +4,6 @@ using System;
 using System.Linq;
 using GestionAdministrativa.Security.Interfaces;
 using GestionAdministrativa.Data.Interfaces;
-using GestionAdministrativa.Entities;
 using GestionAdministrativa.Security.Interfaces;
 
 namespace GestionAdministrativa.Security

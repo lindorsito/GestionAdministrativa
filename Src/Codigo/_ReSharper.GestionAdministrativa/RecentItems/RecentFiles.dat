@@ -1,0 +1,39 @@
+﻿<RecentFiles>
+  <RecentFiles>
+    <File id="336CB85A-BBBB-47D4-911D-14968B3A1924/f:AuthenticationService.cs" caret="131" fromTop="4" />
+    <File id="0A643337-4800-4AB8-B2C2-125C36C674E2/f:ServiceBase.cs" caret="302" fromTop="11" />
+    <File id="D61A7021-E8F7-4A80-BC7A-B6384A142607/f:BusinessBase.cs" caret="926" fromTop="20" />
+    <File id="F861CB7C-89E3-4311-9A50-21E1014C59A0/d:Forms/f:FormBase.cs" caret="1866" fromTop="18" />
+    <File id="B6A55D5D-FD74-417D-8F0E-F56DBCC0072F/f:GestionAdministrativaModel.Context.tt" caret="0" fromTop="0" />
+    <File id="336CB85A-BBBB-47D4-911D-14968B3A1924/f:GestionAdministrativaIdentity.cs" caret="155" fromTop="6" />
+    <File id="336CB85A-BBBB-47D4-911D-14968B3A1924/f:GestionAdministrativaContext.cs" caret="168" fromTop="0" />
+    <File id="D61A7021-E8F7-4A80-BC7A-B6384A142607/d:Interfaces/f:IReporteNegocio.cs" caret="153" fromTop="6" />
+    <File id="B6A55D5D-FD74-417D-8F0E-F56DBCC0072F/f:GestionAdministrativaUow.cs" caret="3184" fromTop="9" />
+    <File id="B6A55D5D-FD74-417D-8F0E-F56DBCC0072F/d:Helpers/f:RepositoryProvider.cs" caret="1432" fromTop="38" />
+    <File id="B6A55D5D-FD74-417D-8F0E-F56DBCC0072F/d:Helpers/f:UowFactory.cs" caret="281" fromTop="10" />
+    <File id="B6A55D5D-FD74-417D-8F0E-F56DBCC0072F/d:Interfaces/f:IRepository.cs" caret="493" fromTop="12" />
+    <File id="B6A55D5D-FD74-417D-8F0E-F56DBCC0072F/d:Repository/f:EFRepository.cs" caret="3009" fromTop="2" />
+    <File id="B6A55D5D-FD74-417D-8F0E-F56DBCC0072F/f:GestionAdministrativaModel.Context.cs" caret="835" fromTop="22" />
+    <File id="F861CB7C-89E3-4311-9A50-21E1014C59A0/d:Forms/f:FrmPrincipal.cs" caret="524" fromTop="18" />
+    <File id="336CB85A-BBBB-47D4-911D-14968B3A1924/f:IGestionAdministrativaContext.cs" caret="124" fromTop="5" />
+    <File id="336CB85A-BBBB-47D4-911D-14968B3A1924/d:Interfaces/f:IAuthenticationService.cs" caret="123" fromTop="6" />
+    <File id="B6A55D5D-FD74-417D-8F0E-F56DBCC0072F/d:Helpers/f:RepositoryFactories.cs" caret="1535" fromTop="0" />
+  </RecentFiles>
+  <RecentEdits>
+    <File id="F861CB7C-89E3-4311-9A50-21E1014C59A0/f:App.config" caret="498" fromTop="5" />
+    <File id="6A56CF7D-7FC0-460E-84D4-7088C569E04C/d:Notification/f:FrmMensajeGenerico.resx" caret="227602" fromTop="18" />
+    <File id="D61A7021-E8F7-4A80-BC7A-B6384A142607/f:BusinessBase.cs" caret="926" fromTop="20" />
+    <File id="336CB85A-BBBB-47D4-911D-14968B3A1924/f:AuthenticationService.cs" caret="183" fromTop="6" />
+    <File id="B6A55D5D-FD74-417D-8F0E-F56DBCC0072F/d:Repository/f:EFRepository.cs" caret="3009" fromTop="47" />
+    <File id="B6A55D5D-FD74-417D-8F0E-F56DBCC0072F/d:Interfaces/f:IRepository.cs" caret="493" fromTop="12" />
+    <File id="B6A55D5D-FD74-417D-8F0E-F56DBCC0072F/d:Helpers/f:UowFactory.cs" caret="281" fromTop="10" />
+    <File id="B6A55D5D-FD74-417D-8F0E-F56DBCC0072F/d:Helpers/f:RepositoryProvider.cs" caret="1432" fromTop="18" />
+    <File id="B6A55D5D-FD74-417D-8F0E-F56DBCC0072F/f:GestionAdministrativaUow.cs" caret="3184" fromTop="9" />
+    <File id="B6A55D5D-FD74-417D-8F0E-F56DBCC0072F/d:Helpers/f:RepositoryFactories.cs" caret="1535" fromTop="18" />
+    <File id="D61A7021-E8F7-4A80-BC7A-B6384A142607/d:Interfaces/f:IReporteNegocio.cs" caret="153" fromTop="6" />
+    <File id="336CB85A-BBBB-47D4-911D-14968B3A1924/f:GestionAdministrativaContext.cs" caret="168" fromTop="7" />
+    <File id="336CB85A-BBBB-47D4-911D-14968B3A1924/f:GestionAdministrativaIdentity.cs" caret="155" fromTop="6" />
+    <File id="336CB85A-BBBB-47D4-911D-14968B3A1924/d:Interfaces/f:IAuthenticationService.cs" caret="123" fromTop="6" />
+    <File id="336CB85A-BBBB-47D4-911D-14968B3A1924/f:IGestionAdministrativaContext.cs" caret="124" fromTop="5" />
+  </RecentEdits>
+</RecentFiles>

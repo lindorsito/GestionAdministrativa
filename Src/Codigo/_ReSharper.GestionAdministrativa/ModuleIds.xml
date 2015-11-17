@@ -1,0 +1,15 @@
+<Modules>
+  <Module PersistentId="B6A55D5D-FD74-417D-8F0E-F56DBCC0072F" ModuleId="GestionAdministrativa.Data" />
+  <Module PersistentId="D61A7021-E8F7-4A80-BC7A-B6384A142607" ModuleId="GestionAdministrativa.Business" />
+  <Module PersistentId="10481CDB-87D9-4D21-8E05-CAFE2E530356" ModuleId="GestionAdministrativa.Entities" />
+  <Module PersistentId="F861CB7C-89E3-4311-9A50-21E1014C59A0" ModuleId="GestionAdministrativa.Win" />
+  <Module PersistentId="CB41F702-99FB-49AE-8BC0-1B7F0193EFAB" ModuleId="Framework.Data" />
+  <Module PersistentId="492B8264-0C10-4AFE-A15F-8A82E60ADE68" ModuleId="Framework.Common" />
+  <Module PersistentId="E764FE19-BDC2-4D35-9A83-F29FBA4B61B2" ModuleId="Framework.Ioc.Ninject" />
+  <Module PersistentId="2F38FDA6-9199-43B0-A0E1-67E5520A3170" ModuleId="Framework.WinForm.Controls" />
+  <Module PersistentId="9F222811-5858-42ED-958F-96C228D67808" ModuleId="Framework.Ioc" />
+  <Module PersistentId="336CB85A-BBBB-47D4-911D-14968B3A1924" ModuleId="GestionAdministrativa.Security" />
+  <Module PersistentId="6A56CF7D-7FC0-460E-84D4-7088C569E04C" ModuleId="Framework.WinForm.Comun" />
+  <Module PersistentId="20259EAA-C937-4BF2-913A-F4531796FE5B" ModuleId="Framework.Data.EntityFramework" />
+  <Module PersistentId="0A643337-4800-4AB8-B2C2-125C36C674E2" ModuleId="GestionAdministrativa.Services" />
+</Modules>

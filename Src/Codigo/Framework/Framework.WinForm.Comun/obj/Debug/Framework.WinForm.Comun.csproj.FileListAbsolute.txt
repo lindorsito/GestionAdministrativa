@@ -19,3 +19,16 @@ E:\Santy Rock\Documents\Trabajos\Otros\Apipe\GestionAdministrativa\Src\Codigo\Fr
 E:\Santy Rock\Documents\Trabajos\Otros\Apipe\GestionAdministrativa\Src\Codigo\Framework\Framework.WinForm.Comun\obj\Debug\Framework.WinForm.Comun.csproj.GenerateResource.Cache
 E:\Santy Rock\Documents\Trabajos\Otros\Apipe\GestionAdministrativa\Src\Codigo\Framework\Framework.WinForm.Comun\obj\Debug\Framework.WinForm.Comun.dll
 E:\Santy Rock\Documents\Trabajos\Otros\Apipe\GestionAdministrativa\Src\Codigo\Framework\Framework.WinForm.Comun\obj\Debug\Framework.WinForm.Comun.pdb
+D:\Works\Sistemas AA\GitHub\GestionAdministrativa\Src\Codigo\Framework\Framework.WinForm.Comun\bin\Debug\Framework.WinForm.Comun.dll
+D:\Works\Sistemas AA\GitHub\GestionAdministrativa\Src\Codigo\Framework\Framework.WinForm.Comun\bin\Debug\Framework.WinForm.Comun.pdb
+D:\Works\Sistemas AA\GitHub\GestionAdministrativa\Src\Codigo\Framework\Framework.WinForm.Comun\bin\Debug\Telerik.WinControls.dll
+D:\Works\Sistemas AA\GitHub\GestionAdministrativa\Src\Codigo\Framework\Framework.WinForm.Comun\bin\Debug\Telerik.WinControls.UI.dll
+D:\Works\Sistemas AA\GitHub\GestionAdministrativa\Src\Codigo\Framework\Framework.WinForm.Comun\bin\Debug\TelerikCommon.dll
+D:\Works\Sistemas AA\GitHub\GestionAdministrativa\Src\Codigo\Framework\Framework.WinForm.Comun\obj\Debug\Framework.WinForm.Comun.csprojResolveAssemblyReference.cache
+D:\Works\Sistemas AA\GitHub\GestionAdministrativa\Src\Codigo\Framework\Framework.WinForm.Comun\obj\Debug\Framework.WinForm.Comun.Notification.FrmMensajeGenerico.resources
+D:\Works\Sistemas AA\GitHub\GestionAdministrativa\Src\Codigo\Framework\Framework.WinForm.Comun\obj\Debug\Framework.WinForm.Comun.Resources.Resource.resources
+D:\Works\Sistemas AA\GitHub\GestionAdministrativa\Src\Codigo\Framework\Framework.WinForm.Comun\obj\Debug\Framework.WinForm.Comun.csproj.GenerateResource.Cache
+D:\Works\Sistemas AA\GitHub\GestionAdministrativa\Src\Codigo\Framework\Framework.WinForm.Comun\obj\Debug\Framework.WinForm.Comun.dll
+D:\Works\Sistemas AA\GitHub\GestionAdministrativa\Src\Codigo\Framework\Framework.WinForm.Comun\obj\Debug\Framework.WinForm.Comun.pdb
+D:\Works\Sistemas AA\GitHub\GestionAdministrativa\Src\Codigo\Framework\Framework.WinForm.Comun\bin\Debug\Telerik.WinControls.xml
+D:\Works\Sistemas AA\GitHub\GestionAdministrativa\Src\Codigo\Framework\Framework.WinForm.Comun\bin\Debug\Telerik.WinControls.UI.xml

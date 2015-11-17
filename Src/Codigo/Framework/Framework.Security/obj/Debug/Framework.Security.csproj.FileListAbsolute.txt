@@ -6,3 +6,7 @@ E:\Santy Rock\Documents\Trabajos\Otros\Apipe\GestionAdministrativa\Src\Codigo\Fr
 E:\Santy Rock\Documents\Trabajos\Otros\Apipe\GestionAdministrativa\Src\Codigo\Framework\Framework.Security\bin\Debug\Framework.Security.pdb
 E:\Santy Rock\Documents\Trabajos\Otros\Apipe\GestionAdministrativa\Src\Codigo\Framework\Framework.Security\obj\Debug\Framework.Security.dll
 E:\Santy Rock\Documents\Trabajos\Otros\Apipe\GestionAdministrativa\Src\Codigo\Framework\Framework.Security\obj\Debug\Framework.Security.pdb
+D:\Works\Sistemas AA\GitHub\GestionAdministrativa\Src\Codigo\Framework\Framework.Security\bin\Debug\Framework.Security.dll
+D:\Works\Sistemas AA\GitHub\GestionAdministrativa\Src\Codigo\Framework\Framework.Security\bin\Debug\Framework.Security.pdb
+D:\Works\Sistemas AA\GitHub\GestionAdministrativa\Src\Codigo\Framework\Framework.Security\obj\Debug\Framework.Security.dll
+D:\Works\Sistemas AA\GitHub\GestionAdministrativa\Src\Codigo\Framework\Framework.Security\obj\Debug\Framework.Security.pdb

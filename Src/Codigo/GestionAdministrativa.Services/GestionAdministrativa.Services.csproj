@@ -44,8 +44,8 @@
     <Compile Include="ServiceBase.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\GestionAdministrativa.Data\GestionAdministrativa.Data.csproj">
-      <Project>{B6A55D5D-FD74-417D-8F0E-F56DBCC0072F}</Project>
+    <ProjectReference Include="..\Alejandria.Data\GestionAdministrativa.Data.csproj">
+      <Project>{b6a55d5d-fd74-417d-8f0e-f56dbcc0072f}</Project>
       <Name>GestionAdministrativa.Data</Name>
     </ProjectReference>
     <ProjectReference Include="..\Framework\Framework.Data\Framework.Data.csproj">

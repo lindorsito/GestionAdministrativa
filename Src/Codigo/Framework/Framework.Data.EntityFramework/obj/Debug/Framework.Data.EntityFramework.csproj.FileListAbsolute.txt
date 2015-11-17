@@ -22,3 +22,15 @@ E:\Santy Rock\Documents\Trabajos\Otros\Apipe\GestionAdministrativa\Src\Codigo\Fr
 E:\Santy Rock\Documents\Trabajos\Otros\Apipe\GestionAdministrativa\Src\Codigo\Framework\Framework.Data.EntityFramework\obj\Debug\Framework.Data.EntityFramework.csprojResolveAssemblyReference.cache
 E:\Santy Rock\Documents\Trabajos\Otros\Apipe\GestionAdministrativa\Src\Codigo\Framework\Framework.Data.EntityFramework\obj\Debug\Framework.Data.EntityFramework.dll
 E:\Santy Rock\Documents\Trabajos\Otros\Apipe\GestionAdministrativa\Src\Codigo\Framework\Framework.Data.EntityFramework\obj\Debug\Framework.Data.EntityFramework.pdb
+D:\Works\Sistemas AA\GitHub\GestionAdministrativa\Src\Codigo\Framework\Framework.Data.EntityFramework\bin\Debug\Framework.Data.EntityFramework.dll.config
+D:\Works\Sistemas AA\GitHub\GestionAdministrativa\Src\Codigo\Framework\Framework.Data.EntityFramework\bin\Debug\Framework.Data.EntityFramework.dll
+D:\Works\Sistemas AA\GitHub\GestionAdministrativa\Src\Codigo\Framework\Framework.Data.EntityFramework\bin\Debug\Framework.Data.EntityFramework.pdb
+D:\Works\Sistemas AA\GitHub\GestionAdministrativa\Src\Codigo\Framework\Framework.Data.EntityFramework\bin\Debug\EntityFramework.dll
+D:\Works\Sistemas AA\GitHub\GestionAdministrativa\Src\Codigo\Framework\Framework.Data.EntityFramework\bin\Debug\EntityFramework.SqlServer.dll
+D:\Works\Sistemas AA\GitHub\GestionAdministrativa\Src\Codigo\Framework\Framework.Data.EntityFramework\bin\Debug\Framework.Data.dll
+D:\Works\Sistemas AA\GitHub\GestionAdministrativa\Src\Codigo\Framework\Framework.Data.EntityFramework\bin\Debug\Framework.Data.pdb
+D:\Works\Sistemas AA\GitHub\GestionAdministrativa\Src\Codigo\Framework\Framework.Data.EntityFramework\bin\Debug\EntityFramework.xml
+D:\Works\Sistemas AA\GitHub\GestionAdministrativa\Src\Codigo\Framework\Framework.Data.EntityFramework\bin\Debug\EntityFramework.SqlServer.xml
+D:\Works\Sistemas AA\GitHub\GestionAdministrativa\Src\Codigo\Framework\Framework.Data.EntityFramework\obj\Debug\Framework.Data.EntityFramework.csprojResolveAssemblyReference.cache
+D:\Works\Sistemas AA\GitHub\GestionAdministrativa\Src\Codigo\Framework\Framework.Data.EntityFramework\obj\Debug\Framework.Data.EntityFramework.dll
+D:\Works\Sistemas AA\GitHub\GestionAdministrativa\Src\Codigo\Framework\Framework.Data.EntityFramework\obj\Debug\Framework.Data.EntityFramework.pdb

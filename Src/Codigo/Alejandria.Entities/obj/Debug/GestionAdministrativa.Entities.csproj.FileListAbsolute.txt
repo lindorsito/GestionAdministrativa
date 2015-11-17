@@ -1,0 +1,9 @@
+D:\Works\Sistemas AA\GitHub\GestionAdministrativa\Src\Codigo\Alejandria.Entities\bin\Debug\GestionAdministrativa.Entities.dll
+D:\Works\Sistemas AA\GitHub\GestionAdministrativa\Src\Codigo\Alejandria.Entities\bin\Debug\GestionAdministrativa.Entities.pdb
+D:\Works\Sistemas AA\GitHub\GestionAdministrativa\Src\Codigo\Alejandria.Entities\bin\Debug\Framework.Common.dll
+D:\Works\Sistemas AA\GitHub\GestionAdministrativa\Src\Codigo\Alejandria.Entities\bin\Debug\AutoMapper.dll
+D:\Works\Sistemas AA\GitHub\GestionAdministrativa\Src\Codigo\Alejandria.Entities\bin\Debug\Framework.Common.pdb
+D:\Works\Sistemas AA\GitHub\GestionAdministrativa\Src\Codigo\Alejandria.Entities\bin\Debug\AutoMapper.xml
+D:\Works\Sistemas AA\GitHub\GestionAdministrativa\Src\Codigo\Alejandria.Entities\obj\Debug\GestionAdministrativa.Entities.csprojResolveAssemblyReference.cache
+D:\Works\Sistemas AA\GitHub\GestionAdministrativa\Src\Codigo\Alejandria.Entities\obj\Debug\GestionAdministrativa.Entities.dll
+D:\Works\Sistemas AA\GitHub\GestionAdministrativa\Src\Codigo\Alejandria.Entities\obj\Debug\GestionAdministrativa.Entities.pdb

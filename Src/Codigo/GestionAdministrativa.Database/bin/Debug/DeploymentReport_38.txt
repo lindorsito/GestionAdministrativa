@@ -1,0 +1,317 @@
+﻿** Warnings
+     WITH CHECK | NOCHECK option for existing data check enforcement is ignored.
+     WITH CHECK | NOCHECK option for existing data check enforcement is ignored.
+     WITH CHECK | NOCHECK option for existing data check enforcement is ignored.
+     WITH CHECK | NOCHECK option for existing data check enforcement is ignored.
+     WITH CHECK | NOCHECK option for existing data check enforcement is ignored.
+     WITH CHECK | NOCHECK option for existing data check enforcement is ignored.
+     WITH CHECK | NOCHECK option for existing data check enforcement is ignored.
+     WITH CHECK | NOCHECK option for existing data check enforcement is ignored.
+     WITH CHECK | NOCHECK option for existing data check enforcement is ignored.
+     WITH CHECK | NOCHECK option for existing data check enforcement is ignored.
+     WITH CHECK | NOCHECK option for existing data check enforcement is ignored.
+     WITH CHECK | NOCHECK option for existing data check enforcement is ignored.
+     WITH CHECK | NOCHECK option for existing data check enforcement is ignored.
+     WITH CHECK | NOCHECK option for existing data check enforcement is ignored.
+     WITH CHECK | NOCHECK option for existing data check enforcement is ignored.
+     WITH CHECK | NOCHECK option for existing data check enforcement is ignored.
+     WITH CHECK | NOCHECK option for existing data check enforcement is ignored.
+     WITH CHECK | NOCHECK option for existing data check enforcement is ignored.
+     WITH CHECK | NOCHECK option for existing data check enforcement is ignored.
+     WITH CHECK | NOCHECK option for existing data check enforcement is ignored.
+     WITH CHECK | NOCHECK option for existing data check enforcement is ignored.
+     WITH CHECK | NOCHECK option for existing data check enforcement is ignored.
+     WITH CHECK | NOCHECK option for existing data check enforcement is ignored.
+     WITH CHECK | NOCHECK option for existing data check enforcement is ignored.
+     WITH CHECK | NOCHECK option for existing data check enforcement is ignored.
+     WITH CHECK | NOCHECK option for existing data check enforcement is ignored.
+     WITH CHECK | NOCHECK option for existing data check enforcement is ignored.
+     WITH CHECK | NOCHECK option for existing data check enforcement is ignored.
+     WITH CHECK | NOCHECK option for existing data check enforcement is ignored.
+     WITH CHECK | NOCHECK option for existing data check enforcement is ignored.
+     WITH CHECK | NOCHECK option for existing data check enforcement is ignored.
+     WITH CHECK | NOCHECK option for existing data check enforcement is ignored.
+     WITH CHECK | NOCHECK option for existing data check enforcement is ignored.
+     WITH CHECK | NOCHECK option for existing data check enforcement is ignored.
+     WITH CHECK | NOCHECK option for existing data check enforcement is ignored.
+     WITH CHECK | NOCHECK option for existing data check enforcement is ignored.
+     WITH CHECK | NOCHECK option for existing data check enforcement is ignored.
+     WITH CHECK | NOCHECK option for existing data check enforcement is ignored.
+     WITH CHECK | NOCHECK option for existing data check enforcement is ignored.
+     WITH CHECK | NOCHECK option for existing data check enforcement is ignored.
+     WITH CHECK | NOCHECK option for existing data check enforcement is ignored.
+     WITH CHECK | NOCHECK option for existing data check enforcement is ignored.
+     WITH CHECK | NOCHECK option for existing data check enforcement is ignored.
+     WITH CHECK | NOCHECK option for existing data check enforcement is ignored.
+     WITH CHECK | NOCHECK option for existing data check enforcement is ignored.
+     WITH CHECK | NOCHECK option for existing data check enforcement is ignored.
+     WITH CHECK | NOCHECK option for existing data check enforcement is ignored.
+     WITH CHECK | NOCHECK option for existing data check enforcement is ignored.
+     WITH CHECK | NOCHECK option for existing data check enforcement is ignored.
+     WITH CHECK | NOCHECK option for existing data check enforcement is ignored.
+     WITH CHECK | NOCHECK option for existing data check enforcement is ignored.
+     WITH CHECK | NOCHECK option for existing data check enforcement is ignored.
+     WITH CHECK | NOCHECK option for existing data check enforcement is ignored.
+     WITH CHECK | NOCHECK option for existing data check enforcement is ignored.
+     WITH CHECK | NOCHECK option for existing data check enforcement is ignored.
+     WITH CHECK | NOCHECK option for existing data check enforcement is ignored.
+     WITH CHECK | NOCHECK option for existing data check enforcement is ignored.
+     WITH CHECK | NOCHECK option for existing data check enforcement is ignored.
+     WITH CHECK | NOCHECK option for existing data check enforcement is ignored.
+     WITH CHECK | NOCHECK option for existing data check enforcement is ignored.
+     WITH CHECK | NOCHECK option for existing data check enforcement is ignored.
+     WITH CHECK | NOCHECK option for existing data check enforcement is ignored.
+     WITH CHECK | NOCHECK option for existing data check enforcement is ignored.
+     WITH CHECK | NOCHECK option for existing data check enforcement is ignored.
+     WITH CHECK | NOCHECK option for existing data check enforcement is ignored.
+     WITH CHECK | NOCHECK option for existing data check enforcement is ignored.
+     WITH CHECK | NOCHECK option for existing data check enforcement is ignored.
+     WITH CHECK | NOCHECK option for existing data check enforcement is ignored.
+     WITH CHECK | NOCHECK option for existing data check enforcement is ignored.
+
+** Highlights
+     Tables that will be rebuilt
+       None
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       None
+
+** User actions
+     Create
+       [dbo].[Bancos] (Table)
+       [dbo].[Cajas] (Table)
+       [dbo].[CajasMovimientos] (Table)
+       [dbo].[CategoriasOperadores] (Table)
+       [dbo].[Celulares] (Table)
+       [dbo].[CelularesMovimiento] (Table)
+       [dbo].[CentrosCostos] (Table)
+       [dbo].[Choferes] (Table)
+       [dbo].[ChoferesMontosFavor] (Table)
+       [dbo].[Conceptos] (Table)
+       [dbo].[CondicionesCompra] (Table)
+       [dbo].[Dias] (Table)
+       [dbo].[Funciones] (Table)
+       [dbo].[GruposProveedores] (Table)
+       [dbo].[Localidades] (Table)
+       [dbo].[Moviles] (Table)
+       [dbo].[Operadores] (Table)
+       [dbo].[OperadoresFunciones] (Table)
+       [dbo].[OperadoresRoles] (Table)
+       [dbo].[OperadoresSucursales] (Table)
+       [dbo].[OrdenesPago] (Table)
+       [dbo].[OrdenesPagoDetalle] (Table)
+       [dbo].[PagosCelular] (Table)
+       [dbo].[Paises] (Table)
+       [dbo].[Personal] (Table)
+       [dbo].[PersonalConcepto] (Table)
+       [dbo].[PersonalNovedades] (Table)
+       [dbo].[Proveedores] (Table)
+       [dbo].[ProveedoresBanco] (Table)
+       [dbo].[Provincias] (Table)
+       [dbo].[Recibos] (Table)
+       [dbo].[RecibosDetalle] (Table)
+       [dbo].[Roles] (Table)
+       [dbo].[Sucursales] (Table)
+       [dbo].[TiposCelulares] (Table)
+       [dbo].[TiposComprobantes] (Table)
+       [dbo].[TiposDocumentosIdentidad] (Table)
+       [dbo].[TiposGastos] (Table)
+       [dbo].[TiposMovimientosCajas] (Table)
+       [dbo].[TiposRecibos] (Table)
+       Default Constraint: <unnamed> (Default Constraint)
+       Default Constraint: <unnamed> (Default Constraint)
+       Default Constraint: <unnamed> (Default Constraint)
+       Default Constraint: <unnamed> (Default Constraint)
+       Default Constraint: <unnamed> (Default Constraint)
+       [dbo].[FK_Bancos_Localidad] (Foreign Key)
+       [dbo].[FK_Bancos_OperadoresAlta] (Foreign Key)
+       [dbo].[FK_Bancos_OperadorModificacion] (Foreign Key)
+       [dbo].[FK_Bancos_Provincia] (Foreign Key)
+       [dbo].[FK_Bancos_SucursalAlta] (Foreign Key)
+       [dbo].[FK_Bancos_SucursalModificacion] (Foreign Key)
+       [dbo].[FK_Cajas_Operador] (Foreign Key)
+       [dbo].[FK_Cajas_OperadorAlta] (Foreign Key)
+       [dbo].[FK_Cajas_OperadorModificacion] (Foreign Key)
+       [dbo].[FK_Cajas_Sucursal] (Foreign Key)
+       [dbo].[FK_Cajas_SucursalAlta] (Foreign Key)
+       [dbo].[FK_Cajas_SucursalModificacion] (Foreign Key)
+       [dbo].[FK_CajasMovimientos_OperadorAlta] (Foreign Key)
+       [dbo].[FK_CajasMovimientos_OperadorModificacion] (Foreign Key)
+       [dbo].[FK_CajasMovimientos_SucursalAlta] (Foreign Key)
+       [dbo].[FK_CajasMovimientos_SucursalModificacion] (Foreign Key)
+       [dbo].[FK_CajasMovimientos_TipoComprobante] (Foreign Key)
+       [dbo].[FK_CajasMovimientos_TipoMovimientoCaja] (Foreign Key)
+       [dbo].[FK_CategoriasOperadores_OperadorAlta] (Foreign Key)
+       [dbo].[FK_CategoriasOperadores_SucursalAlta] (Foreign Key)
+       [dbo].[FK_CategoriasOperadores_OperadorModificacion] (Foreign Key)
+       [dbo].[FK_CategoriasOperadores_SucursalModificacion] (Foreign Key)
+       [dbo].[FK_Celulares_TipoCelular] (Foreign Key)
+       [dbo].[FK_Celulares_DiaPago] (Foreign Key)
+       [dbo].[FK_Celulares_OperadoresAlta] (Foreign Key)
+       [dbo].[FK_Celulares_SucursalesAlta] (Foreign Key)
+       [dbo].[FK_Celulares_OperadoresModificacion] (Foreign Key)
+       [dbo].[FK_Celulares_SucursalModificacion] (Foreign Key)
+       [dbo].[FK_CelularesMovimiento_Celular] (Foreign Key)
+       [dbo].[FK_CelularesMovimiento_TipoComprobante] (Foreign Key)
+       [dbo].[FK_CelularesMovimiento_OperadorAlta] (Foreign Key)
+       [dbo].[FK_CelularesMovimiento_SucursalAlta] (Foreign Key)
+       [dbo].[FK_CelularesMovimiento_OperadorModificacion] (Foreign Key)
+       [dbo].[FK_CelularesMovimiento_SucursalModificacion] (Foreign Key)
+       [dbo].[FK_CentrosCostos_OperadorAlta] (Foreign Key)
+       [dbo].[FK_CentrosCostos_SucursalAlta] (Foreign Key)
+       [dbo].[FK_CentrosCostos_OperadorModificacion] (Foreign Key)
+       [dbo].[FK_CentrosCostos_SucursalModificacion] (Foreign Key)
+       [dbo].[FK_Choferes_OperadorAlta] (Foreign Key)
+       [dbo].[FK_Choferes_SucursalAlta] (Foreign Key)
+       [dbo].[FK_Choferes_OperadorModificacion] (Foreign Key)
+       [dbo].[FK_Choferes_SucursalModificacion] (Foreign Key)
+       [dbo].[FK_ChoferesMontosFavor_Choferes] (Foreign Key)
+       [dbo].[FK_ChoferesMontosFavor_OperadorAutoriza] (Foreign Key)
+       [dbo].[FK_ChoferesMontosFavor_OperadorAlta] (Foreign Key)
+       [dbo].[FK_ChoferesMontosFavor_OperadorModificacion] (Foreign Key)
+       [dbo].[FK_ChoferesMontosFavor_SucursalAlta] (Foreign Key)
+       [dbo].[FK_ChoferesMontosFavor_SucursalModificacion] (Foreign Key)
+       [dbo].[FK_ChoferesMontosFavor_TipoComprobante] (Foreign Key)
+       [dbo].[FK_Conceptos_OperadorAlta] (Foreign Key)
+       [dbo].[FK_Conceptos_SucursalAlta] (Foreign Key)
+       [dbo].[FK_Conceptos_OperadorModificacion] (Foreign Key)
+       [dbo].[FK_Conceptos_SucursalModificacion] (Foreign Key)
+       [dbo].[FK_CondicionesCompra_OperadorAlta] (Foreign Key)
+       [dbo].[FK_CondicionesCompra_SucursalAlta] (Foreign Key)
+       [dbo].[FK_CondicionesCompra_OperadorModificacion] (Foreign Key)
+       [dbo].[FK_CondicionesCompra_SucursalModificacion] (Foreign Key)
+       [dbo].[FK_Funciones_OperadorAlta] (Foreign Key)
+       [dbo].[FK_Funciones_SucursalAlta] (Foreign Key)
+       [dbo].[FK_Funciones_OperadorModificacion] (Foreign Key)
+       [dbo].[FK_Funciones_SucursalModificacion] (Foreign Key)
+       [dbo].[FK_GruposProveedores_OperadorAlta] (Foreign Key)
+       [dbo].[FK_GruposProveedores_SucursalAlta] (Foreign Key)
+       [dbo].[FK_GruposProveedores_OperadorModificacion] (Foreign Key)
+       [dbo].[FK_GruposProveedores_SucursalModificacion] (Foreign Key)
+       [dbo].[FK_Localidades_OperadorAlta] (Foreign Key)
+       [dbo].[FK_Localidades_SucursalAlta] (Foreign Key)
+       [dbo].[FK_Localidades_OperadorModificacion] (Foreign Key)
+       [dbo].[FK_Localidades_SucursalModificacion] (Foreign Key)
+       [dbo].[FK_Moviles_OperadorAlta] (Foreign Key)
+       [dbo].[FK_Moviles_SucursalAlta] (Foreign Key)
+       [dbo].[FK_Moviles_OperadorModificacion] (Foreign Key)
+       [dbo].[FK_Moviles_SucursalModificacion] (Foreign Key)
+       [dbo].[FK_Operadores_OperadorAlta] (Foreign Key)
+       [dbo].[FK_Operadores_SucursalAlta] (Foreign Key)
+       [dbo].[FK_Operadores_OperadorModificacion] (Foreign Key)
+       [dbo].[FK_Operadores_SucursalModificacion] (Foreign Key)
+       [dbo].[FK_Operadores_Personal] (Foreign Key)
+       [dbo].[FK_OperadoresFunciones_OperadorAlta] (Foreign Key)
+       [dbo].[FK_OperadoresFunciones_SucursalAlta] (Foreign Key)
+       [dbo].[FK_OperadoresFunciones_OperadorModificacion] (Foreign Key)
+       [dbo].[FK_OperadoresFunciones_SucursalModificacion] (Foreign Key)
+       [dbo].[FK_OperadoresRoles_Operadores] (Foreign Key)
+       [dbo].[FK_OperadoresRoles_Roles] (Foreign Key)
+       [dbo].[FK_OperadoresSucursal_OperadorAlta] (Foreign Key)
+       [dbo].[FK_OperadoresSucursal_SucursalAlta] (Foreign Key)
+       [dbo].[FK_OperadoresSucursal_OperadorModificacion] (Foreign Key)
+       [dbo].[FK_OperadoresSucursal_SucursalModificacion] (Foreign Key)
+       [dbo].[FK_OrdenesPago_CentrosCostos] (Foreign Key)
+       [dbo].[FK_OrdenesPago_Comprobante] (Foreign Key)
+       [dbo].[FK_OrdenesPago_OperadorAlta] (Foreign Key)
+       [dbo].[FK_OrdenesPago_OperadorModificacion] (Foreign Key)
+       [dbo].[FK_OrdenesPago_Proveedores] (Foreign Key)
+       [dbo].[FK_OrdenesPago_Sucursales] (Foreign Key)
+       [dbo].[FK_OrdenesPago_SucursalAlta] (Foreign Key)
+       [dbo].[FK_OrdenesPago_SucursalGasto] (Foreign Key)
+       [dbo].[FK_OrdenesPago_SucursalModificacion] (Foreign Key)
+       [dbo].[FK_OrdenesPago_TipoGasto] (Foreign Key)
+       [dbo].[FK_OrdenesPagoDetalle_Cajas] (Foreign Key)
+       [dbo].[FK_OrdenesPagoDetalle_OperadorAlta] (Foreign Key)
+       [dbo].[FK_OrdenesPagoDetalle_OperadorAutoriza] (Foreign Key)
+       [dbo].[FK_OrdenesPagoDetalle_OperadorModificacion] (Foreign Key)
+       [dbo].[FK_OrdenesPagoDetalle_OrdenesPago] (Foreign Key)
+       [dbo].[FK_OrdenesPagoDetalle_SucursalAlta] (Foreign Key)
+       [dbo].[FK_OrdenesPagoDetalle_SucursalModificacion] (Foreign Key)
+       [dbo].[FK_PagosCelular_Celular] (Foreign Key)
+       [dbo].[FK_PagosCelular_OperadorAlta] (Foreign Key)
+       [dbo].[FK_PagosCelular_SucursalAlta] (Foreign Key)
+       [dbo].[FK_PagosCelular_OperadorModificacion] (Foreign Key)
+       [dbo].[FK_PagosCelular_SucursalModificacion] (Foreign Key)
+       [dbo].[FK_Personal_OperadorAlta] (Foreign Key)
+       [dbo].[FK_Personal_SucursalAlta] (Foreign Key)
+       [dbo].[FK_Personal_OperadorModificacion] (Foreign Key)
+       [dbo].[FK_Personal_SucursalModificacion] (Foreign Key)
+       [dbo].[FK_Personal_CategoriasOperadores] (Foreign Key)
+       [dbo].[FK_Personal_Localidad] (Foreign Key)
+       [dbo].[FK_Personal_Provincia] (Foreign Key)
+       [dbo].[FK_PersonalConcepto_OperadorAlta] (Foreign Key)
+       [dbo].[FK_PersonalConcepto_SucursalAlta] (Foreign Key)
+       [dbo].[FK_PersonalConcepto_OperadorModificacion] (Foreign Key)
+       [dbo].[FK_PersonalConcepto_SucursalModificacion] (Foreign Key)
+       [dbo].[FK_PersonalConcepto_Conceptos] (Foreign Key)
+       [dbo].[FK_PersonalConcepto_Personal] (Foreign Key)
+       [dbo].[FK_PersonalNovedades_OperadorAlta] (Foreign Key)
+       [dbo].[FK_PersonalNovedades_SucursalAlta] (Foreign Key)
+       [dbo].[FK_PersonalNovedades_OperadorModificacion] (Foreign Key)
+       [dbo].[FK_PersonalNovedades_SucursalModificacion] (Foreign Key)
+       [dbo].[FK_PersonalNovedades_Conceptos] (Foreign Key)
+       [dbo].[FK_PersonalNovedades_Personal] (Foreign Key)
+       [dbo].[FK_Proveedores_CondicionCompra] (Foreign Key)
+       [dbo].[FK_Proveedores_GrupoProveedor] (Foreign Key)
+       [dbo].[FK_Proveedores_Localidad] (Foreign Key)
+       [dbo].[FK_Proveedores_OperadorAlta] (Foreign Key)
+       [dbo].[FK_Proveedores_OperadorModificacion] (Foreign Key)
+       [dbo].[FK_Proveedores_ProveedorBanco] (Foreign Key)
+       [dbo].[FK_Proveedores_Provincia] (Foreign Key)
+       [dbo].[FK_Proveedores_SucursalAlta] (Foreign Key)
+       [dbo].[FK_Proveedores_SucursalModificacion] (Foreign Key)
+       [dbo].[FK_Proveedores_TipoDocumentoIdentidad] (Foreign Key)
+       [dbo].[FK_ProveedoresBanco_OperadorAlta] (Foreign Key)
+       [dbo].[FK_ProveedoresBanco_SucursalAlta] (Foreign Key)
+       [dbo].[FK_ProveedoresBanco_OperadorModificacion] (Foreign Key)
+       [dbo].[FK_ProveedoresBanco_SucursalModificacion] (Foreign Key)
+       [dbo].[FK_ProveedoresBanco_Bancos] (Foreign Key)
+       [dbo].[FK_ProveedoresBanco_Proveedores] (Foreign Key)
+       [dbo].[FK_Provincias_OperadorAlta] (Foreign Key)
+       [dbo].[FK_Provincias_SucursalAlta] (Foreign Key)
+       [dbo].[FK_Provincias_OperadorModificacion] (Foreign Key)
+       [dbo].[FK_Provincias_SucursalModificacion] (Foreign Key)
+       [dbo].[FK_Provincias_Paises] (Foreign Key)
+       [dbo].[FK_Recibos_OperadorAutoriza] (Foreign Key)
+       [dbo].[FK_Recibos_OperadorAlta] (Foreign Key)
+       [dbo].[FK_Recibos_SucursalAlta] (Foreign Key)
+       [dbo].[FK_Recibos_OperadorModificacion] (Foreign Key)
+       [dbo].[FK_Recibos_SucursalModificacion] (Foreign Key)
+       [dbo].[FK_RecibosDetalle_Recibo] (Foreign Key)
+       [dbo].[FK_RecibosDetalle_OperadorALta] (Foreign Key)
+       [dbo].[FK_RecibosDetalle_SucursalAlta] (Foreign Key)
+       [dbo].[FK_RecibosDetalle_OperadorModificacion] (Foreign Key)
+       [dbo].[FK_RecibosDetalle_SucursalModificacion] (Foreign Key)
+       [dbo].[FK_RecibosDetalle_TipoRecibo] (Foreign Key)
+       [dbo].[FK_Sucursales_OperadorAlta] (Foreign Key)
+       [dbo].[FK_Sucursales_SucursalAlta] (Foreign Key)
+       [dbo].[FK_Sucursales_OperadorModificacion] (Foreign Key)
+       [dbo].[FK_Sucursales_SucursalModificacion] (Foreign Key)
+       [dbo].[FK_Sucursales_Localidades] (Foreign Key)
+       [dbo].[FK_Sucursales_Provincias] (Foreign Key)
+       [dbo].[FK_TiposCelulares_OperadorAlta] (Foreign Key)
+       [dbo].[FK_TiposCelulares_SucursalAlta] (Foreign Key)
+       [dbo].[FK_TiposCelulares_OperadorModificacion] (Foreign Key)
+       [dbo].[FK_TiposCelulares_SucursalModificacion] (Foreign Key)
+       [dbo].[FK_TiposComprobantes_OperadorAlta] (Foreign Key)
+       [dbo].[FK_TiposComprobantes_SucursalAlta] (Foreign Key)
+       [dbo].[FK_TiposComprobantes_OperadorModificacion] (Foreign Key)
+       [dbo].[FK_TiposComprobantes_SucursalModificacion] (Foreign Key)
+       [dbo].[FK_TiposGastos_OperadoresAlta] (Foreign Key)
+       [dbo].[FK_TiposGastos_OperadoresModificacion] (Foreign Key)
+       [dbo].[FK_TiposGastos_SucursalesAlta] (Foreign Key)
+       [dbo].[FK_TiposGastos_SucursalesModificacion] (Foreign Key)
+       [dbo].[FK_TiposMovimientosCajas_OperadorAlta] (Foreign Key)
+       [dbo].[FK_TiposMovimientosCajas_SucursalAlta] (Foreign Key)
+       [dbo].[FK_TiposMovimientosCajas_OperadorModificacion] (Foreign Key)
+       [dbo].[FK_TiposMovimientosCajas_SucursalModificacion] (Foreign Key)
+       [dbo].[TiposMovimientosCajas].[CodTipoAnt].[MS_Description] (Extended Property)
+
+** Supporting actions
+
+The project and target databases have different collation settings. Deployment errors might occur.
+

@@ -34,3 +34,8 @@ E:\Santy Rock\Documents\Trabajos\Otros\Apipe\Cobranza\GestionAdministrativa\Src\
 E:\Santy Rock\Documents\Trabajos\Otros\Apipe\Cobranza\GestionAdministrativa\Src\Codigo\GestionAdministrativa.Database\obj\Debug\predeploy.sql
 E:\Santy Rock\Documents\Trabajos\Otros\Apipe\Cobranza\GestionAdministrativa\Src\Codigo\GestionAdministrativa.Database\obj\Debug\Alejandria.Database.dll
 E:\Santy Rock\Documents\Trabajos\Otros\Apipe\Cobranza\GestionAdministrativa\Src\Codigo\GestionAdministrativa.Database\obj\Debug\Alejandria.Database.pdb
+D:\Works\Sistemas AA\GitHub\GestionAdministrativa\Src\Codigo\GestionAdministrativa.Database\bin\Debug\GestionAdministrativa.Database.dacpac
+D:\Works\Sistemas AA\GitHub\GestionAdministrativa\Src\Codigo\GestionAdministrativa.Database\bin\Debug\Alejandria.Database.dll
+D:\Works\Sistemas AA\GitHub\GestionAdministrativa\Src\Codigo\GestionAdministrativa.Database\bin\Debug\Alejandria.Database.pdb
+D:\Works\Sistemas AA\GitHub\GestionAdministrativa\Src\Codigo\GestionAdministrativa.Database\obj\Debug\Alejandria.Database.dll
+D:\Works\Sistemas AA\GitHub\GestionAdministrativa\Src\Codigo\GestionAdministrativa.Database\obj\Debug\Alejandria.Database.pdb

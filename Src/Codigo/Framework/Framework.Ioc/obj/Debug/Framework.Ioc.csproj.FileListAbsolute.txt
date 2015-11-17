@@ -7,3 +7,7 @@ E:\Santy Rock\Documents\Trabajos\Otros\Apipe\GestionAdministrativa\Src\Codigo\Fr
 E:\Santy Rock\Documents\Trabajos\Otros\Apipe\GestionAdministrativa\Src\Codigo\Framework\Framework.Ioc\bin\Debug\Framework.Ioc.pdb
 E:\Santy Rock\Documents\Trabajos\Otros\Apipe\GestionAdministrativa\Src\Codigo\Framework\Framework.Ioc\obj\Debug\Framework.Ioc.dll
 E:\Santy Rock\Documents\Trabajos\Otros\Apipe\GestionAdministrativa\Src\Codigo\Framework\Framework.Ioc\obj\Debug\Framework.Ioc.pdb
+D:\Works\Sistemas AA\GitHub\GestionAdministrativa\Src\Codigo\Framework\Framework.Ioc\bin\Debug\Framework.Ioc.dll
+D:\Works\Sistemas AA\GitHub\GestionAdministrativa\Src\Codigo\Framework\Framework.Ioc\bin\Debug\Framework.Ioc.pdb
+D:\Works\Sistemas AA\GitHub\GestionAdministrativa\Src\Codigo\Framework\Framework.Ioc\obj\Debug\Framework.Ioc.dll
+D:\Works\Sistemas AA\GitHub\GestionAdministrativa\Src\Codigo\Framework\Framework.Ioc\obj\Debug\Framework.Ioc.pdb

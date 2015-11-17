@@ -157,6 +157,24 @@ namespace GestionAdministrativa.Win.Forms
             Uow = UowFactory.Create<IGestionAdministrativaUow>();
         }
 
+        private void InitializeComponent()
+        {
+            ((System.ComponentModel.ISupportInitialize)(this)).BeginInit();
+            this.SuspendLayout();
+            // 
+            // FormBase
+            // 
+            this.ClientSize = new System.Drawing.Size(292, 270);
+            this.Name = "FormBase";
+            // 
+            // 
+            // 
+            this.RootElement.ApplyShapeToControl = true;
+            ((System.ComponentModel.ISupportInitialize)(this)).EndInit();
+            this.ResumeLayout(false);
+
+        }
+
         //private Operador RequerirAdministrador()
         //{
         //    using (var login = FormFactory.Create<FrmLogin>())

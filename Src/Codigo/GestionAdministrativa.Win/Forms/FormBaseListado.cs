@@ -40,12 +40,12 @@ namespace GestionAdministrativa.Win.Forms
 
         private void MainGridOnSortChanged(object sender, GridViewCollectionChangedEventArgs gridViewCollectionChangedEventArgs)
         {
-            var sort = gridViewCollectionChangedEventArgs.GridViewTemplate.Sort;
-            var split = sort.Split(' ');
-            SortColumn = FinalSortColumn(split[0]);
-            SortDirection = split[1];
-           // MainPager.CurrentPage = 0;
-            RefrescarListado();
+           // var sort = gridViewCollectionChangedEventArgs.GridViewTemplate.Sort;
+           // var split = sort.Split(' ');
+           // SortColumn = FinalSortColumn(split[0]);
+           // SortDirection = split[1];
+           //// MainPager.CurrentPage = 0;
+           // RefrescarListado();
         }
 
         public virtual async Task<int> RefrescarListado()

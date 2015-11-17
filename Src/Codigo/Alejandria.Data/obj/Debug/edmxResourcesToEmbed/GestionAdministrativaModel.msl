@@ -1,0 +1,754 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="GestionAdministrativaModelStoreContainer" CdmEntityContainer="GestionAdministrativaDbContext">
+    <EntitySetMapping Name="Bancos">
+      <EntityTypeMapping TypeName="GestionAdministrativa.Model.Bancos">
+        <MappingFragment StoreEntitySet="Bancos">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+          <ScalarProperty Name="NombreCorto" ColumnName="NombreCorto" />
+          <ScalarProperty Name="ProvinciaId" ColumnName="ProvinciaId" />
+          <ScalarProperty Name="LocalidadId" ColumnName="LocalidadId" />
+          <ScalarProperty Name="Domicilio" ColumnName="Domicilio" />
+          <ScalarProperty Name="Contacto" ColumnName="Contacto" />
+          <ScalarProperty Name="TE1" ColumnName="TE1" />
+          <ScalarProperty Name="TE2" ColumnName="TE2" />
+          <ScalarProperty Name="FechaAlta" ColumnName="FechaAlta" />
+          <ScalarProperty Name="OperadorAltaId" ColumnName="OperadorAltaId" />
+          <ScalarProperty Name="SucursalAltaId" ColumnName="SucursalAltaId" />
+          <ScalarProperty Name="FechaModificacion" ColumnName="FechaModificacion" />
+          <ScalarProperty Name="OperadorModificacionId" ColumnName="OperadorModificacionId" />
+          <ScalarProperty Name="SucursalModificacionId" ColumnName="SucursalModificacionId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Cajas">
+      <EntityTypeMapping TypeName="GestionAdministrativa.Model.Cajas">
+        <MappingFragment StoreEntitySet="Cajas">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="SucursalId" ColumnName="SucursalId" />
+          <ScalarProperty Name="OperadorId" ColumnName="OperadorId" />
+          <ScalarProperty Name="Fecha" ColumnName="Fecha" />
+          <ScalarProperty Name="FCierre" ColumnName="FCierre" />
+          <ScalarProperty Name="Inicio" ColumnName="Inicio" />
+          <ScalarProperty Name="Ingresos" ColumnName="Ingresos" />
+          <ScalarProperty Name="Egresos" ColumnName="Egresos" />
+          <ScalarProperty Name="Saldo" ColumnName="Saldo" />
+          <ScalarProperty Name="Cheques" ColumnName="Cheques" />
+          <ScalarProperty Name="Bonos" ColumnName="Bonos" />
+          <ScalarProperty Name="PcAlta" ColumnName="PcAlta" />
+          <ScalarProperty Name="FechaAlta" ColumnName="FechaAlta" />
+          <ScalarProperty Name="OperadorAltaId" ColumnName="OperadorAltaId" />
+          <ScalarProperty Name="SucursalAltaId" ColumnName="SucursalAltaId" />
+          <ScalarProperty Name="FechaModificacion" ColumnName="FechaModificacion" />
+          <ScalarProperty Name="OperadorModificacionId" ColumnName="OperadorModificacionId" />
+          <ScalarProperty Name="SucursalModificacionId" ColumnName="SucursalModificacionId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CajasMovimientos">
+      <EntityTypeMapping TypeName="GestionAdministrativa.Model.CajasMovimientos">
+        <MappingFragment StoreEntitySet="CajasMovimientos">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="CajaId" ColumnName="CajaId" />
+          <ScalarProperty Name="TipoMovimientoCajaId" ColumnName="TipoMovimientoCajaId" />
+          <ScalarProperty Name="TipoComprobante" ColumnName="TipoComprobante" />
+          <ScalarProperty Name="ComprobanteId" ColumnName="ComprobanteId" />
+          <ScalarProperty Name="Senia" ColumnName="Senia" />
+          <ScalarProperty Name="Recargo" ColumnName="Recargo" />
+          <ScalarProperty Name="Importe" ColumnName="Importe" />
+          <ScalarProperty Name="ImpFac" ColumnName="ImpFac" />
+          <ScalarProperty Name="Efectivo" ColumnName="Efectivo" />
+          <ScalarProperty Name="Tarjeta" ColumnName="Tarjeta" />
+          <ScalarProperty Name="Cheque" ColumnName="Cheque" />
+          <ScalarProperty Name="Bono" ColumnName="Bono" />
+          <ScalarProperty Name="fpcBono" ColumnName="fpcBono" />
+          <ScalarProperty Name="Deposito" ColumnName="Deposito" />
+          <ScalarProperty Name="CajaIdAnt" ColumnName="CajaIdAnt" />
+          <ScalarProperty Name="CompIdAnt" ColumnName="CompIdAnt" />
+          <ScalarProperty Name="CompLcnAnt" ColumnName="CompLcnAnt" />
+          <ScalarProperty Name="FacturaReservadas" ColumnName="FacturaReservadas" />
+          <ScalarProperty Name="PcAlta" ColumnName="PcAlta" />
+          <ScalarProperty Name="FechaAlta" ColumnName="FechaAlta" />
+          <ScalarProperty Name="OperadorAltaId" ColumnName="OperadorAltaId" />
+          <ScalarProperty Name="SucursalAltaId" ColumnName="SucursalAltaId" />
+          <ScalarProperty Name="FechaModificacion" ColumnName="FechaModificacion" />
+          <ScalarProperty Name="OperadorModificacionId" ColumnName="OperadorModificacionId" />
+          <ScalarProperty Name="SucursalModificacionId" ColumnName="SucursalModificacionId" />
+          <ScalarProperty Name="Transferencia" ColumnName="Transferencia" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CategoriasOperadores">
+      <EntityTypeMapping TypeName="GestionAdministrativa.Model.CategoriasOperadores">
+        <MappingFragment StoreEntitySet="CategoriasOperadores">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+          <ScalarProperty Name="Abreviatura" ColumnName="Abreviatura" />
+          <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
+          <ScalarProperty Name="Prioridad" ColumnName="Prioridad" />
+          <ScalarProperty Name="FechaAlta" ColumnName="FechaAlta" />
+          <ScalarProperty Name="SucursalAltaId" ColumnName="SucursalAltaId" />
+          <ScalarProperty Name="OperadorAltaId" ColumnName="OperadorAltaId" />
+          <ScalarProperty Name="FechaModificacion" ColumnName="FechaModificacion" />
+          <ScalarProperty Name="SucursalModificacionId" ColumnName="SucursalModificacionId" />
+          <ScalarProperty Name="OperadorModificacionId" ColumnName="OperadorModificacionId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Celulares">
+      <EntityTypeMapping TypeName="GestionAdministrativa.Model.Celulares">
+        <MappingFragment StoreEntitySet="Celulares">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="TipoCelularId" ColumnName="TipoCelularId" />
+          <ScalarProperty Name="Alta" ColumnName="Alta" />
+          <ScalarProperty Name="Baja" ColumnName="Baja" />
+          <ScalarProperty Name="Activo" ColumnName="Activo" />
+          <ScalarProperty Name="Pagare" ColumnName="Pagare" />
+          <ScalarProperty Name="Habilitado" ColumnName="Habilitado" />
+          <ScalarProperty Name="FechaUltimoPago" ColumnName="FechaUltimoPago" />
+          <ScalarProperty Name="FechaProximoPago" ColumnName="FechaProximoPago" />
+          <ScalarProperty Name="Observacion" ColumnName="Observacion" />
+          <ScalarProperty Name="DiaPagoId" ColumnName="DiaPagoId" />
+          <ScalarProperty Name="FechaVencimientoPago" ColumnName="FechaVencimientoPago" />
+          <ScalarProperty Name="OperadorAltaId" ColumnName="OperadorAltaId" />
+          <ScalarProperty Name="SucursalAltaId" ColumnName="SucursalAltaId" />
+          <ScalarProperty Name="OperadorModificacionId" ColumnName="OperadorModificacionId" />
+          <ScalarProperty Name="SucursalModificacionId" ColumnName="SucursalModificacionId" />
+          <ScalarProperty Name="FechaAlta" ColumnName="FechaAlta" />
+          <ScalarProperty Name="FechaModificacion" ColumnName="FechaModificacion" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CelularesMovimiento">
+      <EntityTypeMapping TypeName="GestionAdministrativa.Model.CelularesMovimiento">
+        <MappingFragment StoreEntitySet="CelularesMovimiento">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="CelularId" ColumnName="CelularId" />
+          <ScalarProperty Name="TipoComprobanteId" ColumnName="TipoComprobanteId" />
+          <ScalarProperty Name="ComprobanteId" ColumnName="ComprobanteId" />
+          <ScalarProperty Name="Concepto" ColumnName="Concepto" />
+          <ScalarProperty Name="Debe" ColumnName="Debe" />
+          <ScalarProperty Name="Haber" ColumnName="Haber" />
+          <ScalarProperty Name="Observaciones" ColumnName="Observaciones" />
+          <ScalarProperty Name="FechaAlta" ColumnName="FechaAlta" />
+          <ScalarProperty Name="SucursalAltaId" ColumnName="SucursalAltaId" />
+          <ScalarProperty Name="OperadorAltaId" ColumnName="OperadorAltaId" />
+          <ScalarProperty Name="FechaModificacion" ColumnName="FechaModificacion" />
+          <ScalarProperty Name="SucursalModificacionId" ColumnName="SucursalModificacionId" />
+          <ScalarProperty Name="OperadorModificacionId" ColumnName="OperadorModificacionId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CentrosCostos">
+      <EntityTypeMapping TypeName="GestionAdministrativa.Model.CentrosCostos">
+        <MappingFragment StoreEntitySet="CentrosCostos">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+          <ScalarProperty Name="Abreviatura" ColumnName="Abreviatura" />
+          <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
+          <ScalarProperty Name="Prioridad" ColumnName="Prioridad" />
+          <ScalarProperty Name="FechaAlta" ColumnName="FechaAlta" />
+          <ScalarProperty Name="OperadorAltaId" ColumnName="OperadorAltaId" />
+          <ScalarProperty Name="SucursalAltaId" ColumnName="SucursalAltaId" />
+          <ScalarProperty Name="FechaModificacion" ColumnName="FechaModificacion" />
+          <ScalarProperty Name="OperadorModificacionId" ColumnName="OperadorModificacionId" />
+          <ScalarProperty Name="SucursalModificacionId" ColumnName="SucursalModificacionId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Choferes">
+      <EntityTypeMapping TypeName="GestionAdministrativa.Model.Choferes">
+        <MappingFragment StoreEntitySet="Choferes">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Dni" ColumnName="Dni" />
+          <ScalarProperty Name="Apellido" ColumnName="Apellido" />
+          <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+          <ScalarProperty Name="Telefono" ColumnName="Telefono" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="OperadorAltaId" ColumnName="OperadorAltaId" />
+          <ScalarProperty Name="SucursalAltaId" ColumnName="SucursalAltaId" />
+          <ScalarProperty Name="OperadorModificacionId" ColumnName="OperadorModificacionId" />
+          <ScalarProperty Name="SucursalModificacionId" ColumnName="SucursalModificacionId" />
+          <ScalarProperty Name="FechaAlta" ColumnName="FechaAlta" />
+          <ScalarProperty Name="FechaModificacion" ColumnName="FechaModificacion" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ChoferesMontosFavor">
+      <EntityTypeMapping TypeName="GestionAdministrativa.Model.ChoferesMontosFavor">
+        <MappingFragment StoreEntitySet="ChoferesMontosFavor">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="ChoferId" ColumnName="ChoferId" />
+          <ScalarProperty Name="FechaComprobante" ColumnName="FechaComprobante" />
+          <ScalarProperty Name="TipoComprobanteId" ColumnName="TipoComprobanteId" />
+          <ScalarProperty Name="Concepto" ColumnName="Concepto" />
+          <ScalarProperty Name="Importe" ColumnName="Importe" />
+          <ScalarProperty Name="ImpOcupado" ColumnName="ImpOcupado" />
+          <ScalarProperty Name="FechaAnulacion" ColumnName="FechaAnulacion" />
+          <ScalarProperty Name="OperadorAutorizaId" ColumnName="OperadorAutorizaId" />
+          <ScalarProperty Name="Observaciones" ColumnName="Observaciones" />
+          <ScalarProperty Name="FechaAlta" ColumnName="FechaAlta" />
+          <ScalarProperty Name="SucursalAltaId" ColumnName="SucursalAltaId" />
+          <ScalarProperty Name="OperadorAltaId" ColumnName="OperadorAltaId" />
+          <ScalarProperty Name="FechaModificacion" ColumnName="FechaModificacion" />
+          <ScalarProperty Name="SucursalModificacionId" ColumnName="SucursalModificacionId" />
+          <ScalarProperty Name="OperadorModificacionId" ColumnName="OperadorModificacionId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Conceptos">
+      <EntityTypeMapping TypeName="GestionAdministrativa.Model.Conceptos">
+        <MappingFragment StoreEntitySet="Conceptos">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+          <ScalarProperty Name="Abreviatura" ColumnName="Abreviatura" />
+          <ScalarProperty Name="TipoConcepto" ColumnName="TipoConcepto" />
+          <ScalarProperty Name="FechaAlta" ColumnName="FechaAlta" />
+          <ScalarProperty Name="OperadorAltaId" ColumnName="OperadorAltaId" />
+          <ScalarProperty Name="SucursalAltaId" ColumnName="SucursalAltaId" />
+          <ScalarProperty Name="FechaModificacion" ColumnName="FechaModificacion" />
+          <ScalarProperty Name="OperadorModificacionId" ColumnName="OperadorModificacionId" />
+          <ScalarProperty Name="SucursalModificacionId" ColumnName="SucursalModificacionId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CondicionesCompra">
+      <EntityTypeMapping TypeName="GestionAdministrativa.Model.CondicionesCompra">
+        <MappingFragment StoreEntitySet="CondicionesCompra">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+          <ScalarProperty Name="Abreviatura" ColumnName="Abreviatura" />
+          <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
+          <ScalarProperty Name="Prioridad" ColumnName="Prioridad" />
+          <ScalarProperty Name="FechaAlta" ColumnName="FechaAlta" />
+          <ScalarProperty Name="OperadorAltaId" ColumnName="OperadorAltaId" />
+          <ScalarProperty Name="SucursalAltaId" ColumnName="SucursalAltaId" />
+          <ScalarProperty Name="FechaModificacion" ColumnName="FechaModificacion" />
+          <ScalarProperty Name="OperadorModificacionId" ColumnName="OperadorModificacionId" />
+          <ScalarProperty Name="SucursalModificacionId" ColumnName="SucursalModificacionId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Dias">
+      <EntityTypeMapping TypeName="GestionAdministrativa.Model.Dias">
+        <MappingFragment StoreEntitySet="Dias">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Funciones">
+      <EntityTypeMapping TypeName="GestionAdministrativa.Model.Funciones">
+        <MappingFragment StoreEntitySet="Funciones">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
+          <ScalarProperty Name="kccodfunc" ColumnName="kccodfunc" />
+          <ScalarProperty Name="Comentario" ColumnName="Comentario" />
+          <ScalarProperty Name="DefinicionTecnica" ColumnName="DefinicionTecnica" />
+          <ScalarProperty Name="FechaModificacion" ColumnName="FechaModificacion" />
+          <ScalarProperty Name="OperadorModificacionId" ColumnName="OperadorModificacionId" />
+          <ScalarProperty Name="SucursalModificacionId" ColumnName="SucursalModificacionId" />
+          <ScalarProperty Name="FechaAlta" ColumnName="FechaAlta" />
+          <ScalarProperty Name="OperadorAltaId" ColumnName="OperadorAltaId" />
+          <ScalarProperty Name="SucursalAltaId" ColumnName="SucursalAltaId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="GruposProveedores">
+      <EntityTypeMapping TypeName="GestionAdministrativa.Model.GruposProveedores">
+        <MappingFragment StoreEntitySet="GruposProveedores">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+          <ScalarProperty Name="Abreviatura" ColumnName="Abreviatura" />
+          <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
+          <ScalarProperty Name="SucursalAltaId" ColumnName="SucursalAltaId" />
+          <ScalarProperty Name="FechaAlta" ColumnName="FechaAlta" />
+          <ScalarProperty Name="OperadorAltaId" ColumnName="OperadorAltaId" />
+          <ScalarProperty Name="FechaModificacion" ColumnName="FechaModificacion" />
+          <ScalarProperty Name="OperadorModificacionId" ColumnName="OperadorModificacionId" />
+          <ScalarProperty Name="SucursalModificacionId" ColumnName="SucursalModificacionId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Localidades">
+      <EntityTypeMapping TypeName="GestionAdministrativa.Model.Localidades">
+        <MappingFragment StoreEntitySet="Localidades">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+          <ScalarProperty Name="CP" ColumnName="CP" />
+          <ScalarProperty Name="ProvinciaId" ColumnName="ProvinciaId" />
+          <ScalarProperty Name="FechaAlta" ColumnName="FechaAlta" />
+          <ScalarProperty Name="OperadorAltaId" ColumnName="OperadorAltaId" />
+          <ScalarProperty Name="SucursalAltaId" ColumnName="SucursalAltaId" />
+          <ScalarProperty Name="FechaModificacion" ColumnName="FechaModificacion" />
+          <ScalarProperty Name="OperadorModificacionId" ColumnName="OperadorModificacionId" />
+          <ScalarProperty Name="SucursalModificacionId" ColumnName="SucursalModificacionId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Moviles">
+      <EntityTypeMapping TypeName="GestionAdministrativa.Model.Moviles">
+        <MappingFragment StoreEntitySet="Moviles">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Numero" ColumnName="Numero" />
+          <ScalarProperty Name="Patente" ColumnName="Patente" />
+          <ScalarProperty Name="FechaAlta" ColumnName="FechaAlta" />
+          <ScalarProperty Name="OperadorAltaId" ColumnName="OperadorAltaId" />
+          <ScalarProperty Name="SucursalAltaId" ColumnName="SucursalAltaId" />
+          <ScalarProperty Name="FechaModificacion" ColumnName="FechaModificacion" />
+          <ScalarProperty Name="OperadorModificacionId" ColumnName="OperadorModificacionId" />
+          <ScalarProperty Name="SucursalModificacionId" ColumnName="SucursalModificacionId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Operadores">
+      <EntityTypeMapping TypeName="GestionAdministrativa.Model.Operadores">
+        <MappingFragment StoreEntitySet="Operadores">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Usuario" ColumnName="Usuario" />
+          <ScalarProperty Name="Clave" ColumnName="Clave" />
+          <ScalarProperty Name="VigenteDesde" ColumnName="VigenteDesde" />
+          <ScalarProperty Name="VigenteHasta" ColumnName="VigenteHasta" />
+          <ScalarProperty Name="PersonalId" ColumnName="PersonalId" />
+          <ScalarProperty Name="FechaAlta" ColumnName="FechaAlta" />
+          <ScalarProperty Name="SucursalAltaId" ColumnName="SucursalAltaId" />
+          <ScalarProperty Name="OperadorAltaId" ColumnName="OperadorAltaId" />
+          <ScalarProperty Name="FechaModificacion" ColumnName="FechaModificacion" />
+          <ScalarProperty Name="OperadorModificacionId" ColumnName="OperadorModificacionId" />
+          <ScalarProperty Name="SucursalModificacionId" ColumnName="SucursalModificacionId" />
+          <ScalarProperty Name="Habilitado" ColumnName="Habilitado" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="OperadoresFunciones">
+      <EntityTypeMapping TypeName="GestionAdministrativa.Model.OperadoresFunciones">
+        <MappingFragment StoreEntitySet="OperadoresFunciones">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="OperadorId" ColumnName="OperadorId" />
+          <ScalarProperty Name="FuncionId" ColumnName="FuncionId" />
+          <ScalarProperty Name="Permitido" ColumnName="Permitido" />
+          <ScalarProperty Name="FechaAlta" ColumnName="FechaAlta" />
+          <ScalarProperty Name="OperadorAltaId" ColumnName="OperadorAltaId" />
+          <ScalarProperty Name="SucursalAltaId" ColumnName="SucursalAltaId" />
+          <ScalarProperty Name="FechaModificacion" ColumnName="FechaModificacion" />
+          <ScalarProperty Name="OperadorModificacionId" ColumnName="OperadorModificacionId" />
+          <ScalarProperty Name="SucursalModificacionId" ColumnName="SucursalModificacionId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="OperadoresSucursales">
+      <EntityTypeMapping TypeName="GestionAdministrativa.Model.OperadoresSucursales">
+        <MappingFragment StoreEntitySet="OperadoresSucursales">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="OperadorId" ColumnName="OperadorId" />
+          <ScalarProperty Name="SucursalId" ColumnName="SucursalId" />
+          <ScalarProperty Name="Activo" ColumnName="Activo" />
+          <ScalarProperty Name="FechaAlta" ColumnName="FechaAlta" />
+          <ScalarProperty Name="OperadorAltaId" ColumnName="OperadorAltaId" />
+          <ScalarProperty Name="SucursalAltaId" ColumnName="SucursalAltaId" />
+          <ScalarProperty Name="FechaModificacion" ColumnName="FechaModificacion" />
+          <ScalarProperty Name="OperadorModificacionId" ColumnName="OperadorModificacionId" />
+          <ScalarProperty Name="SucursalModificacionId" ColumnName="SucursalModificacionId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="OrdenesPago">
+      <EntityTypeMapping TypeName="GestionAdministrativa.Model.OrdenesPago">
+        <MappingFragment StoreEntitySet="OrdenesPago">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="SucursalId" ColumnName="SucursalId" />
+          <ScalarProperty Name="Fecha" ColumnName="Fecha" />
+          <ScalarProperty Name="LCN" ColumnName="LCN" />
+          <ScalarProperty Name="LetraComprobante" ColumnName="LetraComprobante" />
+          <ScalarProperty Name="NumeroComprobante" ColumnName="NumeroComprobante" />
+          <ScalarProperty Name="TipoGastoId" ColumnName="TipoGastoId" />
+          <ScalarProperty Name="ProveedorId" ColumnName="ProveedorId" />
+          <ScalarProperty Name="Concepto" ColumnName="Concepto" />
+          <ScalarProperty Name="RegistraIVACompra" ColumnName="RegistraIVACompra" />
+          <ScalarProperty Name="SucursalGastoId" ColumnName="SucursalGastoId" />
+          <ScalarProperty Name="CentroCostoId" ColumnName="CentroCostoId" />
+          <ScalarProperty Name="TipoComprobanteId" ColumnName="TipoComprobanteId" />
+          <ScalarProperty Name="FechaImputacion" ColumnName="FechaImputacion" />
+          <ScalarProperty Name="SubTotal" ColumnName="SubTotal" />
+          <ScalarProperty Name="Recargo" ColumnName="Recargo" />
+          <ScalarProperty Name="Importe" ColumnName="Importe" />
+          <ScalarProperty Name="ImportePagado" ColumnName="ImportePagado" />
+          <ScalarProperty Name="FechaAnulacion" ColumnName="FechaAnulacion" />
+          <ScalarProperty Name="RemitoAnticipadoId" ColumnName="RemitoAnticipadoId" />
+          <ScalarProperty Name="SucursalAltaId" ColumnName="SucursalAltaId" />
+          <ScalarProperty Name="FechaAlta" ColumnName="FechaAlta" />
+          <ScalarProperty Name="OperadorAltaId" ColumnName="OperadorAltaId" />
+          <ScalarProperty Name="FechaModificacion" ColumnName="FechaModificacion" />
+          <ScalarProperty Name="OperadorModificacionId" ColumnName="OperadorModificacionId" />
+          <ScalarProperty Name="SucursalModificacionId" ColumnName="SucursalModificacionId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="OrdenesPagoDetalle">
+      <EntityTypeMapping TypeName="GestionAdministrativa.Model.OrdenesPagoDetalle">
+        <MappingFragment StoreEntitySet="OrdenesPagoDetalle">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="OrdenPagoId" ColumnName="OrdenPagoId" />
+          <ScalarProperty Name="NumeroLinea" ColumnName="NumeroLinea" />
+          <ScalarProperty Name="FechaPago" ColumnName="FechaPago" />
+          <ScalarProperty Name="Descuento" ColumnName="Descuento" />
+          <ScalarProperty Name="ImportePagado" ColumnName="ImportePagado" />
+          <ScalarProperty Name="Efectivo" ColumnName="Efectivo" />
+          <ScalarProperty Name="Cheques" ColumnName="Cheques" />
+          <ScalarProperty Name="Deposito" ColumnName="Deposito" />
+          <ScalarProperty Name="DepositoEfectivo" ColumnName="DepositoEfectivo" />
+          <ScalarProperty Name="FechaAnulacion" ColumnName="FechaAnulacion" />
+          <ScalarProperty Name="SucursalAltaId" ColumnName="SucursalAltaId" />
+          <ScalarProperty Name="FechaAlta" ColumnName="FechaAlta" />
+          <ScalarProperty Name="OperadorAltaId" ColumnName="OperadorAltaId" />
+          <ScalarProperty Name="FechaModificacion" ColumnName="FechaModificacion" />
+          <ScalarProperty Name="OperadorModificacionId" ColumnName="OperadorModificacionId" />
+          <ScalarProperty Name="SucursalModificacionId" ColumnName="SucursalModificacionId" />
+          <ScalarProperty Name="Transferencia" ColumnName="Transferencia" />
+          <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
+          <ScalarProperty Name="CajaId" ColumnName="CajaId" />
+          <ScalarProperty Name="OperadorAutorizaId" ColumnName="OperadorAutorizaId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PagosCelular">
+      <EntityTypeMapping TypeName="GestionAdministrativa.Model.PagosCelular">
+        <MappingFragment StoreEntitySet="PagosCelular">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Desde" ColumnName="Desde" />
+          <ScalarProperty Name="Hasta" ColumnName="Hasta" />
+          <ScalarProperty Name="Efectivo" ColumnName="Efectivo" />
+          <ScalarProperty Name="Vales" ColumnName="Vales" />
+          <ScalarProperty Name="Taller" ColumnName="Taller" />
+          <ScalarProperty Name="Monto" ColumnName="Monto" />
+          <ScalarProperty Name="CelularId" ColumnName="CelularId" />
+          <ScalarProperty Name="FechaAlta" ColumnName="FechaAlta" />
+          <ScalarProperty Name="OperadorAltaId" ColumnName="OperadorAltaId" />
+          <ScalarProperty Name="SucursalAltaId" ColumnName="SucursalAltaId" />
+          <ScalarProperty Name="OperadorModificacionId" ColumnName="OperadorModificacionId" />
+          <ScalarProperty Name="SucursalModificacionId" ColumnName="SucursalModificacionId" />
+          <ScalarProperty Name="FechaModificacion" ColumnName="FechaModificacion" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Paises">
+      <EntityTypeMapping TypeName="GestionAdministrativa.Model.Paises">
+        <MappingFragment StoreEntitySet="Paises">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+          <ScalarProperty Name="Abreviatura" ColumnName="Abreviatura" />
+          <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
+          <ScalarProperty Name="Prioridad" ColumnName="Prioridad" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Personal">
+      <EntityTypeMapping TypeName="GestionAdministrativa.Model.Personal">
+        <MappingFragment StoreEntitySet="Personal">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="ContactoId" ColumnName="ContactoId" />
+          <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+          <ScalarProperty Name="Cuit" ColumnName="Cuit" />
+          <ScalarProperty Name="Domicilio" ColumnName="Domicilio" />
+          <ScalarProperty Name="ProvinciaId" ColumnName="ProvinciaId" />
+          <ScalarProperty Name="LocalidadId" ColumnName="LocalidadId" />
+          <ScalarProperty Name="CategoriaId" ColumnName="CategoriaId" />
+          <ScalarProperty Name="SucursalId" ColumnName="SucursalId" />
+          <ScalarProperty Name="TipoLiquidacionId" ColumnName="TipoLiquidacionId" />
+          <ScalarProperty Name="Telefono" ColumnName="Telefono" />
+          <ScalarProperty Name="Celular" ColumnName="Celular" />
+          <ScalarProperty Name="Fax" ColumnName="Fax" />
+          <ScalarProperty Name="FechaAlta" ColumnName="FechaAlta" />
+          <ScalarProperty Name="HoraDesdeM" ColumnName="HoraDesdeM" />
+          <ScalarProperty Name="HoraHastaM" ColumnName="HoraHastaM" />
+          <ScalarProperty Name="HoraDesdeT" ColumnName="HoraDesdeT" />
+          <ScalarProperty Name="HoraHastaT" ColumnName="HoraHastaT" />
+          <ScalarProperty Name="OperadorAltaId" ColumnName="OperadorAltaId" />
+          <ScalarProperty Name="FechaModificacion" ColumnName="FechaModificacion" />
+          <ScalarProperty Name="OperadorModificacionId" ColumnName="OperadorModificacionId" />
+          <ScalarProperty Name="SucursalAltaId" ColumnName="SucursalAltaId" />
+          <ScalarProperty Name="SucursalModificacionId" ColumnName="SucursalModificacionId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PersonalConcepto">
+      <EntityTypeMapping TypeName="GestionAdministrativa.Model.PersonalConcepto">
+        <MappingFragment StoreEntitySet="PersonalConcepto">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="PersonalId" ColumnName="PersonalId" />
+          <ScalarProperty Name="ConceptoId" ColumnName="ConceptoId" />
+          <ScalarProperty Name="Importe" ColumnName="Importe" />
+          <ScalarProperty Name="Vigente" ColumnName="Vigente" />
+          <ScalarProperty Name="FechaAlta" ColumnName="FechaAlta" />
+          <ScalarProperty Name="OperadorAltaId" ColumnName="OperadorAltaId" />
+          <ScalarProperty Name="FechaModificacion" ColumnName="FechaModificacion" />
+          <ScalarProperty Name="OperadorModificacionId" ColumnName="OperadorModificacionId" />
+          <ScalarProperty Name="SucursalAltaId" ColumnName="SucursalAltaId" />
+          <ScalarProperty Name="SucursalModificacionId" ColumnName="SucursalModificacionId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PersonalNovedades">
+      <EntityTypeMapping TypeName="GestionAdministrativa.Model.PersonalNovedades">
+        <MappingFragment StoreEntitySet="PersonalNovedades">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="PersonalId" ColumnName="PersonalId" />
+          <ScalarProperty Name="TipoNovedad" ColumnName="TipoNovedad" />
+          <ScalarProperty Name="ConceptoId" ColumnName="ConceptoId" />
+          <ScalarProperty Name="Cantidad" ColumnName="Cantidad" />
+          <ScalarProperty Name="MesImputacion" ColumnName="MesImputacion" />
+          <ScalarProperty Name="AnioImputacion" ColumnName="AnioImputacion" />
+          <ScalarProperty Name="Importe" ColumnName="Importe" />
+          <ScalarProperty Name="Total" ColumnName="Total" />
+          <ScalarProperty Name="LiquidacionPersonalId" ColumnName="LiquidacionPersonalId" />
+          <ScalarProperty Name="FechaAlta" ColumnName="FechaAlta" />
+          <ScalarProperty Name="OperadorAltaId" ColumnName="OperadorAltaId" />
+          <ScalarProperty Name="FechaModificacion" ColumnName="FechaModificacion" />
+          <ScalarProperty Name="OperadorModificacionId" ColumnName="OperadorModificacionId" />
+          <ScalarProperty Name="SucursalAltaId" ColumnName="SucursalAltaId" />
+          <ScalarProperty Name="SucursalModificacionId" ColumnName="SucursalModificacionId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Proveedores">
+      <EntityTypeMapping TypeName="GestionAdministrativa.Model.Proveedores">
+        <MappingFragment StoreEntitySet="Proveedores">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Cuenta" ColumnName="Cuenta" />
+          <ScalarProperty Name="Denominacion" ColumnName="Denominacion" />
+          <ScalarProperty Name="Domicilio" ColumnName="Domicilio" />
+          <ScalarProperty Name="Telefono" ColumnName="Telefono" />
+          <ScalarProperty Name="Celular" ColumnName="Celular" />
+          <ScalarProperty Name="Fax" ColumnName="Fax" />
+          <ScalarProperty Name="Contacto" ColumnName="Contacto" />
+          <ScalarProperty Name="Cuit" ColumnName="Cuit" />
+          <ScalarProperty Name="TipoDocumento" ColumnName="TipoDocumento" />
+          <ScalarProperty Name="ProvinciaId" ColumnName="ProvinciaId" />
+          <ScalarProperty Name="LocalidadId" ColumnName="LocalidadId" />
+          <ScalarProperty Name="CondicionCompraId" ColumnName="CondicionCompraId" />
+          <ScalarProperty Name="PorcentajeDescuento" ColumnName="PorcentajeDescuento" />
+          <ScalarProperty Name="Password" ColumnName="Password" />
+          <ScalarProperty Name="ProveerdorBcoId" ColumnName="ProveerdorBcoId" />
+          <ScalarProperty Name="CBU" ColumnName="CBU" />
+          <ScalarProperty Name="GrupoProveedorId" ColumnName="GrupoProveedorId" />
+          <ScalarProperty Name="PaginaWeb" ColumnName="PaginaWeb" />
+          <ScalarProperty Name="EmailPedido" ColumnName="EmailPedido" />
+          <ScalarProperty Name="Estado" ColumnName="Estado" />
+          <ScalarProperty Name="Comentarios" ColumnName="Comentarios" />
+          <ScalarProperty Name="Gto" ColumnName="Gto" />
+          <ScalarProperty Name="Activo" ColumnName="Activo" />
+          <ScalarProperty Name="SucursalAltaId" ColumnName="SucursalAltaId" />
+          <ScalarProperty Name="FechaAlta" ColumnName="FechaAlta" />
+          <ScalarProperty Name="OperadorAltaId" ColumnName="OperadorAltaId" />
+          <ScalarProperty Name="FechaModificacion" ColumnName="FechaModificacion" />
+          <ScalarProperty Name="OperadorModificacionId" ColumnName="OperadorModificacionId" />
+          <ScalarProperty Name="SucursalModificacionId" ColumnName="SucursalModificacionId" />
+          <ScalarProperty Name="PersonaContacto" ColumnName="PersonaContacto" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ProveedoresBanco">
+      <EntityTypeMapping TypeName="GestionAdministrativa.Model.ProveedoresBanco">
+        <MappingFragment StoreEntitySet="ProveedoresBanco">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="ProveedorId" ColumnName="ProveedorId" />
+          <ScalarProperty Name="BancoId" ColumnName="BancoId" />
+          <ScalarProperty Name="CtaCte" ColumnName="CtaCte" />
+          <ScalarProperty Name="CajaAhorro" ColumnName="CajaAhorro" />
+          <ScalarProperty Name="SucursalAltaId" ColumnName="SucursalAltaId" />
+          <ScalarProperty Name="FechaAlta" ColumnName="FechaAlta" />
+          <ScalarProperty Name="OperadorAltaId" ColumnName="OperadorAltaId" />
+          <ScalarProperty Name="FechaModificacion" ColumnName="FechaModificacion" />
+          <ScalarProperty Name="OperadorModificacionId" ColumnName="OperadorModificacionId" />
+          <ScalarProperty Name="SucursalModificacionId" ColumnName="SucursalModificacionId" />
+          <ScalarProperty Name="Titular" ColumnName="Titular" />
+          <ScalarProperty Name="CBU" ColumnName="CBU" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Provincias">
+      <EntityTypeMapping TypeName="GestionAdministrativa.Model.Provincias">
+        <MappingFragment StoreEntitySet="Provincias">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+          <ScalarProperty Name="NombreCorto" ColumnName="NombreCorto" />
+          <ScalarProperty Name="PaisId" ColumnName="PaisId" />
+          <ScalarProperty Name="FechaAlta" ColumnName="FechaAlta" />
+          <ScalarProperty Name="OperadorAltaId" ColumnName="OperadorAltaId" />
+          <ScalarProperty Name="SucursalAltaId" ColumnName="SucursalAltaId" />
+          <ScalarProperty Name="FechaModificacion" ColumnName="FechaModificacion" />
+          <ScalarProperty Name="OperadorModificacionId" ColumnName="OperadorModificacionId" />
+          <ScalarProperty Name="SucursalModificacionId" ColumnName="SucursalModificacionId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Recibos">
+      <EntityTypeMapping TypeName="GestionAdministrativa.Model.Recibos">
+        <MappingFragment StoreEntitySet="Recibos">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Tipo" ColumnName="Tipo" />
+          <ScalarProperty Name="PuntoVenta" ColumnName="PuntoVenta" />
+          <ScalarProperty Name="Numero" ColumnName="Numero" />
+          <ScalarProperty Name="FechaAnulacion" ColumnName="FechaAnulacion" />
+          <ScalarProperty Name="FechaPago" ColumnName="FechaPago" />
+          <ScalarProperty Name="Total" ColumnName="Total" />
+          <ScalarProperty Name="OperadorAuId" ColumnName="OperadorAuId" />
+          <ScalarProperty Name="OperadorAltaId" ColumnName="OperadorAltaId" />
+          <ScalarProperty Name="FechaAlta" ColumnName="FechaAlta" />
+          <ScalarProperty Name="SucursalAltaId" ColumnName="SucursalAltaId" />
+          <ScalarProperty Name="FechaModificacion" ColumnName="FechaModificacion" />
+          <ScalarProperty Name="SucursalModificacionId" ColumnName="SucursalModificacionId" />
+          <ScalarProperty Name="OperadorModificacionId" ColumnName="OperadorModificacionId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="RecibosDetalle">
+      <EntityTypeMapping TypeName="GestionAdministrativa.Model.RecibosDetalle">
+        <MappingFragment StoreEntitySet="RecibosDetalle">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="ReciboId" ColumnName="ReciboId" />
+          <ScalarProperty Name="PagoId" ColumnName="PagoId" />
+          <ScalarProperty Name="Importe" ColumnName="Importe" />
+          <ScalarProperty Name="OperadorAltaId" ColumnName="OperadorAltaId" />
+          <ScalarProperty Name="FechaAlta" ColumnName="FechaAlta" />
+          <ScalarProperty Name="SucursalAltaId" ColumnName="SucursalAltaId" />
+          <ScalarProperty Name="FechaModificacion" ColumnName="FechaModificacion" />
+          <ScalarProperty Name="SucursalModificacionId" ColumnName="SucursalModificacionId" />
+          <ScalarProperty Name="OperadorModificacionId" ColumnName="OperadorModificacionId" />
+          <ScalarProperty Name="TipoReciboId" ColumnName="TipoReciboId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Roles">
+      <EntityTypeMapping TypeName="GestionAdministrativa.Model.Roles">
+        <MappingFragment StoreEntitySet="Roles">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Sucursales">
+      <EntityTypeMapping TypeName="GestionAdministrativa.Model.Sucursales">
+        <MappingFragment StoreEntitySet="Sucursales">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+          <ScalarProperty Name="NombreCorto" ColumnName="NombreCorto" />
+          <ScalarProperty Name="ProvinciaId" ColumnName="ProvinciaId" />
+          <ScalarProperty Name="LocalidadId" ColumnName="LocalidadId" />
+          <ScalarProperty Name="Direccion" ColumnName="Direccion" />
+          <ScalarProperty Name="TelPart" ColumnName="TelPart" />
+          <ScalarProperty Name="TelCel" ColumnName="TelCel" />
+          <ScalarProperty Name="Fax" ColumnName="Fax" />
+          <ScalarProperty Name="Responsable" ColumnName="Responsable" />
+          <ScalarProperty Name="OperadorModificacionId" ColumnName="OperadorModificacionId" />
+          <ScalarProperty Name="FechaAlta" ColumnName="FechaAlta" />
+          <ScalarProperty Name="SucursalAltaId" ColumnName="SucursalAltaId" />
+          <ScalarProperty Name="OperadorAltaId" ColumnName="OperadorAltaId" />
+          <ScalarProperty Name="FechaModificacion" ColumnName="FechaModificacion" />
+          <ScalarProperty Name="SucursalModificacionId" ColumnName="SucursalModificacionId" />
+          <ScalarProperty Name="MaximoImporteVenta" ColumnName="MaximoImporteVenta" />
+          <ScalarProperty Name="MaximoPorcentajeDescuento" ColumnName="MaximoPorcentajeDescuento" />
+          <ScalarProperty Name="MaximoNroLineasPorVenta" ColumnName="MaximoNroLineasPorVenta" />
+          <ScalarProperty Name="SucursalNumero" ColumnName="SucursalNumero" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TiposCelulares">
+      <EntityTypeMapping TypeName="GestionAdministrativa.Model.TiposCelulares">
+        <MappingFragment StoreEntitySet="TiposCelulares">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Tipo" ColumnName="Tipo" />
+          <ScalarProperty Name="Monto" ColumnName="Monto" />
+          <ScalarProperty Name="FechaAlta" ColumnName="FechaAlta" />
+          <ScalarProperty Name="OperadorAltaId" ColumnName="OperadorAltaId" />
+          <ScalarProperty Name="SucursalAltaId" ColumnName="SucursalAltaId" />
+          <ScalarProperty Name="FechaModificacion" ColumnName="FechaModificacion" />
+          <ScalarProperty Name="OperadorModificacionId" ColumnName="OperadorModificacionId" />
+          <ScalarProperty Name="SucursalModificacionId" ColumnName="SucursalModificacionId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TiposComprobantes">
+      <EntityTypeMapping TypeName="GestionAdministrativa.Model.TiposComprobantes">
+        <MappingFragment StoreEntitySet="TiposComprobantes">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+          <ScalarProperty Name="Abreviatura" ColumnName="Abreviatura" />
+          <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
+          <ScalarProperty Name="Prioridad" ColumnName="Prioridad" />
+          <ScalarProperty Name="Comprobante" ColumnName="Comprobante" />
+          <ScalarProperty Name="Concepto" ColumnName="Concepto" />
+          <ScalarProperty Name="FechaAlta" ColumnName="FechaAlta" />
+          <ScalarProperty Name="SucursalAltaId" ColumnName="SucursalAltaId" />
+          <ScalarProperty Name="OperadorAltaId" ColumnName="OperadorAltaId" />
+          <ScalarProperty Name="FechaModificacion" ColumnName="FechaModificacion" />
+          <ScalarProperty Name="SucursalModificacionId" ColumnName="SucursalModificacionId" />
+          <ScalarProperty Name="OperadorModificacionId" ColumnName="OperadorModificacionId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TiposDocumentosIdentidad">
+      <EntityTypeMapping TypeName="GestionAdministrativa.Model.TiposDocumentosIdentidad">
+        <MappingFragment StoreEntitySet="TiposDocumentosIdentidad">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+          <ScalarProperty Name="Abreviatura" ColumnName="Abreviatura" />
+          <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
+          <ScalarProperty Name="Prioridad" ColumnName="Prioridad" />
+          <ScalarProperty Name="FechaAlta" ColumnName="FechaAlta" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TiposGastos">
+      <EntityTypeMapping TypeName="GestionAdministrativa.Model.TiposGastos">
+        <MappingFragment StoreEntitySet="TiposGastos">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+          <ScalarProperty Name="Abreviatura" ColumnName="Abreviatura" />
+          <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
+          <ScalarProperty Name="BienDeUso" ColumnName="BienDeUso" />
+          <ScalarProperty Name="FechaAlta" ColumnName="FechaAlta" />
+          <ScalarProperty Name="OperadorAltaId" ColumnName="OperadorAltaId" />
+          <ScalarProperty Name="SucursalAltaId" ColumnName="SucursalAltaId" />
+          <ScalarProperty Name="FechaModificacion" ColumnName="FechaModificacion" />
+          <ScalarProperty Name="OperadorModificacionId" ColumnName="OperadorModificacionId" />
+          <ScalarProperty Name="SucursalModificacionId" ColumnName="SucursalModificacionId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TiposMovimientosCajas">
+      <EntityTypeMapping TypeName="GestionAdministrativa.Model.TiposMovimientosCajas">
+        <MappingFragment StoreEntitySet="TiposMovimientosCajas">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+          <ScalarProperty Name="Abreviatura" ColumnName="Abreviatura" />
+          <ScalarProperty Name="TipoMovimiento" ColumnName="TipoMovimiento" />
+          <ScalarProperty Name="CodTipoAnt" ColumnName="CodTipoAnt" />
+          <ScalarProperty Name="FechaAlta" ColumnName="FechaAlta" />
+          <ScalarProperty Name="OperadorAltaId" ColumnName="OperadorAltaId" />
+          <ScalarProperty Name="SucursalAltaId" ColumnName="SucursalAltaId" />
+          <ScalarProperty Name="FechaModificacion" ColumnName="FechaModificacion" />
+          <ScalarProperty Name="OperadorModificacionId" ColumnName="OperadorModificacionId" />
+          <ScalarProperty Name="SucursalModificacionId" ColumnName="SucursalModificacionId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TiposRecibos">
+      <EntityTypeMapping TypeName="GestionAdministrativa.Model.TiposRecibos">
+        <MappingFragment StoreEntitySet="TiposRecibos">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <AssociationSetMapping Name="OperadoresRoles" TypeName="GestionAdministrativa.Model.OperadoresRoles" StoreEntitySet="OperadoresRoles">
+      <EndProperty Name="Operadores">
+        <ScalarProperty Name="Id" ColumnName="OpetadorId" />
+      </EndProperty>
+      <EndProperty Name="Roles">
+        <ScalarProperty Name="Id" ColumnName="RoleId" />
+      </EndProperty>
+    </AssociationSetMapping>
+  </EntityContainerMapping>
+</Mapping>
