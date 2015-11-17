@@ -87,10 +87,3 @@ E:\Santy Rock\Documents\Trabajos\Otros\Apipe\GestionAdministrativa\Src\Codigo\Ge
 E:\Santy Rock\Documents\Trabajos\Otros\Apipe\GestionAdministrativa\Src\Codigo\GestionAdministrativa.Win\bin\Debug\System.Web.WebPages.Deployment.xml
 E:\Santy Rock\Documents\Trabajos\Otros\Apipe\GestionAdministrativa\Src\Codigo\GestionAdministrativa.Win\obj\Debug\GestionAdministrativa.Win.exe
 E:\Santy Rock\Documents\Trabajos\Otros\Apipe\GestionAdministrativa\Src\Codigo\GestionAdministrativa.Win\obj\Debug\GestionAdministrativa.Win.pdb
-E:\Santy Rock\Documents\Trabajos\Otros\Apipe\Cobranza\GestionAdministrativa\Src\Codigo\GestionAdministrativa.Win\obj\Debug\GestionAdministrativa.Win.csprojResolveAssemblyReference.cache
-E:\Santy Rock\Documents\Trabajos\Otros\Apipe\Cobranza\GestionAdministrativa\Src\Codigo\GestionAdministrativa.Win\obj\Debug\GestionAdministrativa.Win.Forms.FormBase.resources
-E:\Santy Rock\Documents\Trabajos\Otros\Apipe\Cobranza\GestionAdministrativa\Src\Codigo\GestionAdministrativa.Win\obj\Debug\GestionAdministrativa.Win.Forms.FormBaseListado.resources
-E:\Santy Rock\Documents\Trabajos\Otros\Apipe\Cobranza\GestionAdministrativa\Src\Codigo\GestionAdministrativa.Win\obj\Debug\GestionAdministrativa.Win.Forms.FrmPrincipal.resources
-E:\Santy Rock\Documents\Trabajos\Otros\Apipe\Cobranza\GestionAdministrativa\Src\Codigo\GestionAdministrativa.Win\obj\Debug\GestionAdministrativa.Win.Forms.UserControlBase.resources
-E:\Santy Rock\Documents\Trabajos\Otros\Apipe\Cobranza\GestionAdministrativa\Src\Codigo\GestionAdministrativa.Win\obj\Debug\GestionAdministrativa.Win.Properties.Resources.resources
-E:\Santy Rock\Documents\Trabajos\Otros\Apipe\Cobranza\GestionAdministrativa\Src\Codigo\GestionAdministrativa.Win\obj\Debug\GestionAdministrativa.Win.csproj.GenerateResource.Cache

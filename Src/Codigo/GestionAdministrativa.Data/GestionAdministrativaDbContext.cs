@@ -9,7 +9,7 @@ namespace GestionAdministrativa.Data
     public partial class GestionAdministrativaDbContext
     {
         public GestionAdministrativaDbContext(string nameOrConnectionString)
-            : base(GestionAdministrativa)
+            : base(nameOrConnectionString)
         {
         }
     }

@@ -7,8 +7,8 @@
     <ProjectGuid>{10481CDB-87D9-4D21-8E05-CAFE2E530356}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>GestionAdministrativa.Entities</RootNamespace>
-    <AssemblyName>GestionAdministrativa.Entities</AssemblyName>
+    <RootNamespace>Alejandria.Entities</RootNamespace>
+    <AssemblyName>Alejandria.Entities</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -40,48 +40,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Banco.cs">
-      <DependentUpon>GestionAdministrativaModel.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Caja.cs">
-      <DependentUpon>GestionAdministrativaModel.tt</DependentUpon>
-    </Compile>
-    <Compile Include="CajasMovimiento.cs">
-      <DependentUpon>GestionAdministrativaModel.tt</DependentUpon>
-    </Compile>
-    <Compile Include="CategoriasOperadore.cs">
-      <DependentUpon>GestionAdministrativaModel.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Celulare.cs">
-      <DependentUpon>GestionAdministrativaModel.tt</DependentUpon>
-    </Compile>
-    <Compile Include="CelularesMovimiento.cs">
-      <DependentUpon>GestionAdministrativaModel.tt</DependentUpon>
-    </Compile>
-    <Compile Include="CentrosCosto.cs">
-      <DependentUpon>GestionAdministrativaModel.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Chofere.cs">
-      <DependentUpon>GestionAdministrativaModel.tt</DependentUpon>
-    </Compile>
-    <Compile Include="ChoferesMontosFavor.cs">
-      <DependentUpon>GestionAdministrativaModel.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Concepto.cs">
-      <DependentUpon>GestionAdministrativaModel.tt</DependentUpon>
-    </Compile>
-    <Compile Include="CondicionesCompra.cs">
-      <DependentUpon>GestionAdministrativaModel.tt</DependentUpon>
-    </Compile>
-    <Compile Include="C__RefactorLog.cs">
-      <DependentUpon>GestionAdministrativaModel.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Dia.cs">
-      <DependentUpon>GestionAdministrativaModel.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Funcione.cs">
-      <DependentUpon>GestionAdministrativaModel.tt</DependentUpon>
-    </Compile>
     <Compile Include="GestionAdministrativaModel.cs">
       <DependentUpon>GestionAdministrativaModel.tt</DependentUpon>
       <AutoGen>True</AutoGen>
@@ -93,86 +51,8 @@
     <Compile Include="Dto\ClienteDto.cs" />
     <Compile Include="Enums\CondicionVentaEnum.cs" />
     <Compile Include="Enums\EstadoCliente.cs" />
-    <Compile Include="GruposProveedore.cs">
-      <DependentUpon>GestionAdministrativaModel.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Localidade.cs">
-      <DependentUpon>GestionAdministrativaModel.tt</DependentUpon>
-    </Compile>
     <Compile Include="Metadata\ClienteMetadata.cs" />
-    <Compile Include="Movile.cs">
-      <DependentUpon>GestionAdministrativaModel.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Operadore.cs">
-      <DependentUpon>GestionAdministrativaModel.tt</DependentUpon>
-    </Compile>
-    <Compile Include="OperadoresFuncione.cs">
-      <DependentUpon>GestionAdministrativaModel.tt</DependentUpon>
-    </Compile>
-    <Compile Include="OperadoresSucursale.cs">
-      <DependentUpon>GestionAdministrativaModel.tt</DependentUpon>
-    </Compile>
-    <Compile Include="OrdenesPago.cs">
-      <DependentUpon>GestionAdministrativaModel.tt</DependentUpon>
-    </Compile>
-    <Compile Include="OrdenesPagoDetalle.cs">
-      <DependentUpon>GestionAdministrativaModel.tt</DependentUpon>
-    </Compile>
-    <Compile Include="PagosCelular.cs">
-      <DependentUpon>GestionAdministrativaModel.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Pais.cs">
-      <DependentUpon>GestionAdministrativaModel.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Personal.cs">
-      <DependentUpon>GestionAdministrativaModel.tt</DependentUpon>
-    </Compile>
-    <Compile Include="PersonalConcepto.cs">
-      <DependentUpon>GestionAdministrativaModel.tt</DependentUpon>
-    </Compile>
-    <Compile Include="PersonalNovedade.cs">
-      <DependentUpon>GestionAdministrativaModel.tt</DependentUpon>
-    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Proveedore.cs">
-      <DependentUpon>GestionAdministrativaModel.tt</DependentUpon>
-    </Compile>
-    <Compile Include="ProveedoresBanco.cs">
-      <DependentUpon>GestionAdministrativaModel.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Provincia.cs">
-      <DependentUpon>GestionAdministrativaModel.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Recibo.cs">
-      <DependentUpon>GestionAdministrativaModel.tt</DependentUpon>
-    </Compile>
-    <Compile Include="RecibosDetalle.cs">
-      <DependentUpon>GestionAdministrativaModel.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Role.cs">
-      <DependentUpon>GestionAdministrativaModel.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Sucursale.cs">
-      <DependentUpon>GestionAdministrativaModel.tt</DependentUpon>
-    </Compile>
-    <Compile Include="TiposCelulare.cs">
-      <DependentUpon>GestionAdministrativaModel.tt</DependentUpon>
-    </Compile>
-    <Compile Include="TiposComprobante.cs">
-      <DependentUpon>GestionAdministrativaModel.tt</DependentUpon>
-    </Compile>
-    <Compile Include="TiposDocumentosIdentidad.cs">
-      <DependentUpon>GestionAdministrativaModel.tt</DependentUpon>
-    </Compile>
-    <Compile Include="TiposGasto.cs">
-      <DependentUpon>GestionAdministrativaModel.tt</DependentUpon>
-    </Compile>
-    <Compile Include="TiposMovimientosCaja.cs">
-      <DependentUpon>GestionAdministrativaModel.tt</DependentUpon>
-    </Compile>
-    <Compile Include="TiposRecibo.cs">
-      <DependentUpon>GestionAdministrativaModel.tt</DependentUpon>
-    </Compile>
   </ItemGroup>
   <ItemGroup>
     <None Include="GestionAdministrativaModel.tt">

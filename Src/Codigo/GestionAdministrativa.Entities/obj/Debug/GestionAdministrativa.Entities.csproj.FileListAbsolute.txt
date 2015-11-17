@@ -16,12 +16,3 @@ E:\Santy Rock\Documents\Trabajos\Otros\Apipe\GestionAdministrativa\Src\Codigo\Ge
 E:\Santy Rock\Documents\Trabajos\Otros\Apipe\GestionAdministrativa\Src\Codigo\GestionAdministrativa.Entities\obj\Debug\GestionAdministrativa.Entities.csprojResolveAssemblyReference.cache
 E:\Santy Rock\Documents\Trabajos\Otros\Apipe\GestionAdministrativa\Src\Codigo\GestionAdministrativa.Entities\obj\Debug\Alejandria.Entities.dll
 E:\Santy Rock\Documents\Trabajos\Otros\Apipe\GestionAdministrativa\Src\Codigo\GestionAdministrativa.Entities\obj\Debug\Alejandria.Entities.pdb
-E:\Santy Rock\Documents\Trabajos\Otros\Apipe\Cobranza\GestionAdministrativa\Src\Codigo\GestionAdministrativa.Entities\bin\Debug\GestionAdministrativa.Entities.dll
-E:\Santy Rock\Documents\Trabajos\Otros\Apipe\Cobranza\GestionAdministrativa\Src\Codigo\GestionAdministrativa.Entities\bin\Debug\GestionAdministrativa.Entities.pdb
-E:\Santy Rock\Documents\Trabajos\Otros\Apipe\Cobranza\GestionAdministrativa\Src\Codigo\GestionAdministrativa.Entities\bin\Debug\Framework.Common.dll
-E:\Santy Rock\Documents\Trabajos\Otros\Apipe\Cobranza\GestionAdministrativa\Src\Codigo\GestionAdministrativa.Entities\bin\Debug\AutoMapper.dll
-E:\Santy Rock\Documents\Trabajos\Otros\Apipe\Cobranza\GestionAdministrativa\Src\Codigo\GestionAdministrativa.Entities\bin\Debug\Framework.Common.pdb
-E:\Santy Rock\Documents\Trabajos\Otros\Apipe\Cobranza\GestionAdministrativa\Src\Codigo\GestionAdministrativa.Entities\bin\Debug\AutoMapper.xml
-E:\Santy Rock\Documents\Trabajos\Otros\Apipe\Cobranza\GestionAdministrativa\Src\Codigo\GestionAdministrativa.Entities\obj\Debug\GestionAdministrativa.Entities.csprojResolveAssemblyReference.cache
-E:\Santy Rock\Documents\Trabajos\Otros\Apipe\Cobranza\GestionAdministrativa\Src\Codigo\GestionAdministrativa.Entities\obj\Debug\GestionAdministrativa.Entities.dll
-E:\Santy Rock\Documents\Trabajos\Otros\Apipe\Cobranza\GestionAdministrativa\Src\Codigo\GestionAdministrativa.Entities\obj\Debug\GestionAdministrativa.Entities.pdb

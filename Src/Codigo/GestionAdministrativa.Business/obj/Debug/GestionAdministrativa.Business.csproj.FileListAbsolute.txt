@@ -42,6 +42,3 @@ E:\Santy Rock\Documents\Trabajos\Otros\Apipe\GestionAdministrativa\Src\Codigo\Ge
 E:\Santy Rock\Documents\Trabajos\Otros\Apipe\GestionAdministrativa\Src\Codigo\GestionAdministrativa.Business\obj\Debug\GestionAdministrativa.Business.csproj.GenerateResource.Cache
 E:\Santy Rock\Documents\Trabajos\Otros\Apipe\GestionAdministrativa\Src\Codigo\GestionAdministrativa.Business\obj\Debug\GestionAdministrativa.Business.dll
 E:\Santy Rock\Documents\Trabajos\Otros\Apipe\GestionAdministrativa\Src\Codigo\GestionAdministrativa.Business\obj\Debug\GestionAdministrativa.Business.pdb
-E:\Santy Rock\Documents\Trabajos\Otros\Apipe\Cobranza\GestionAdministrativa\Src\Codigo\GestionAdministrativa.Business\obj\Debug\GestionAdministrativa.Business.csprojResolveAssemblyReference.cache
-E:\Santy Rock\Documents\Trabajos\Otros\Apipe\Cobranza\GestionAdministrativa\Src\Codigo\GestionAdministrativa.Business\obj\Debug\GestionAdministrativa.Business.Properties.Resources.resources
-E:\Santy Rock\Documents\Trabajos\Otros\Apipe\Cobranza\GestionAdministrativa\Src\Codigo\GestionAdministrativa.Business\obj\Debug\GestionAdministrativa.Business.csproj.GenerateResource.Cache

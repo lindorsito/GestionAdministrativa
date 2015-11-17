@@ -7,7 +7,3 @@ E:\Santy Rock\Documents\Trabajos\Otros\Apipe\GestionAdministrativa\Src\Codigo\Fr
 E:\Santy Rock\Documents\Trabajos\Otros\Apipe\GestionAdministrativa\Src\Codigo\Framework\Framework.Logging\bin\Debug\Framework.Logging.pdb
 E:\Santy Rock\Documents\Trabajos\Otros\Apipe\GestionAdministrativa\Src\Codigo\Framework\Framework.Logging\obj\Debug\Framework.Logging.dll
 E:\Santy Rock\Documents\Trabajos\Otros\Apipe\GestionAdministrativa\Src\Codigo\Framework\Framework.Logging\obj\Debug\Framework.Logging.pdb
-E:\Santy Rock\Documents\Trabajos\Otros\Apipe\Cobranza\GestionAdministrativa\Src\Codigo\Framework\Framework.Logging\bin\Debug\Framework.Logging.dll
-E:\Santy Rock\Documents\Trabajos\Otros\Apipe\Cobranza\GestionAdministrativa\Src\Codigo\Framework\Framework.Logging\bin\Debug\Framework.Logging.pdb
-E:\Santy Rock\Documents\Trabajos\Otros\Apipe\Cobranza\GestionAdministrativa\Src\Codigo\Framework\Framework.Logging\obj\Debug\Framework.Logging.dll
-E:\Santy Rock\Documents\Trabajos\Otros\Apipe\Cobranza\GestionAdministrativa\Src\Codigo\Framework\Framework.Logging\obj\Debug\Framework.Logging.pdb

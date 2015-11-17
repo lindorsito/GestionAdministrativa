@@ -7,7 +7,3 @@ E:\Santy Rock\Documents\Trabajos\Otros\Apipe\GestionAdministrativa\Src\Codigo\Fr
 E:\Santy Rock\Documents\Trabajos\Otros\Apipe\GestionAdministrativa\Src\Codigo\Framework\Framework.Ioc\bin\Debug\Framework.Ioc.pdb
 E:\Santy Rock\Documents\Trabajos\Otros\Apipe\GestionAdministrativa\Src\Codigo\Framework\Framework.Ioc\obj\Debug\Framework.Ioc.dll
 E:\Santy Rock\Documents\Trabajos\Otros\Apipe\GestionAdministrativa\Src\Codigo\Framework\Framework.Ioc\obj\Debug\Framework.Ioc.pdb
-E:\Santy Rock\Documents\Trabajos\Otros\Apipe\Cobranza\GestionAdministrativa\Src\Codigo\Framework\Framework.Ioc\bin\Debug\Framework.Ioc.dll
-E:\Santy Rock\Documents\Trabajos\Otros\Apipe\Cobranza\GestionAdministrativa\Src\Codigo\Framework\Framework.Ioc\bin\Debug\Framework.Ioc.pdb
-E:\Santy Rock\Documents\Trabajos\Otros\Apipe\Cobranza\GestionAdministrativa\Src\Codigo\Framework\Framework.Ioc\obj\Debug\Framework.Ioc.dll
-E:\Santy Rock\Documents\Trabajos\Otros\Apipe\Cobranza\GestionAdministrativa\Src\Codigo\Framework\Framework.Ioc\obj\Debug\Framework.Ioc.pdb

@@ -62,6 +62,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="GestionAdministrativa.Database.publish.xml" />
+    <None Include="Alejandria_1.Database.publish.xml" />
   </ItemGroup>
   <ItemGroup>
     <RefactorLog Include="GestionAdministrativa.Database.refactorlog" />

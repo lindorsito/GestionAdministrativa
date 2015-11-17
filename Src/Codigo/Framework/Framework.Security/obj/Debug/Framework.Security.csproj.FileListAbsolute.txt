@@ -6,7 +6,3 @@ E:\Santy Rock\Documents\Trabajos\Otros\Apipe\GestionAdministrativa\Src\Codigo\Fr
 E:\Santy Rock\Documents\Trabajos\Otros\Apipe\GestionAdministrativa\Src\Codigo\Framework\Framework.Security\bin\Debug\Framework.Security.pdb
 E:\Santy Rock\Documents\Trabajos\Otros\Apipe\GestionAdministrativa\Src\Codigo\Framework\Framework.Security\obj\Debug\Framework.Security.dll
 E:\Santy Rock\Documents\Trabajos\Otros\Apipe\GestionAdministrativa\Src\Codigo\Framework\Framework.Security\obj\Debug\Framework.Security.pdb
-E:\Santy Rock\Documents\Trabajos\Otros\Apipe\Cobranza\GestionAdministrativa\Src\Codigo\Framework\Framework.Security\bin\Debug\Framework.Security.dll
-E:\Santy Rock\Documents\Trabajos\Otros\Apipe\Cobranza\GestionAdministrativa\Src\Codigo\Framework\Framework.Security\bin\Debug\Framework.Security.pdb
-E:\Santy Rock\Documents\Trabajos\Otros\Apipe\Cobranza\GestionAdministrativa\Src\Codigo\Framework\Framework.Security\obj\Debug\Framework.Security.dll
-E:\Santy Rock\Documents\Trabajos\Otros\Apipe\Cobranza\GestionAdministrativa\Src\Codigo\Framework\Framework.Security\obj\Debug\Framework.Security.pdb
