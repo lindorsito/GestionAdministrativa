@@ -57,3 +57,5 @@ Src/Codigo/GestionAdministrativa.Win/obj/Debug/GestionAdministrativa.Win.csprojR
 *.resources
 Src/Codigo/GestionAdministrativa.Win/obj/Debug/GestionAdministrativa.Win.Properties.Resources.resources
 Src/Codigo/GestionAdministrativa.Win/obj/Debug/GestionAdministrativa.Win.Properties.Resources.resources
+bin
+obj
